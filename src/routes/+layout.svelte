@@ -1,27 +1,28 @@
 <script lang="ts">
+	import { base } from '$app/paths';
 	import '../app.css';
 
 	let { children } = $props();
 
 	const menu = [
-		{ name: 'Home', path: '/' },
-		{ name: 'Organizzatori', path: '/who' },
-		{ name: 'Calendario', path: '/calendar' },
-		{ name: 'Scoreboard', path: '/scoreboard' }
+		{ name: 'Home', path: '' },
+		{ name: 'Organizzatori', path: 'who' },
+		{ name: 'Calendario', path: 'calendar' },
+		{ name: 'Scoreboard', path: 'scoreboard' }
 	];
 </script>
 
 <nav class="navbar mb-16 max-h-16 w-full bg-blue px-16 text-white">
 	<div class="navbar-start">
-		<a href="/" class="btn btn-ghost">
-			<img src="logo.png" alt="CyberCup Logo" class="h-full" />
+		<a href="{base}/" class="btn btn-ghost">
+			<img src="{base}/logo.png" alt="CyberCup Logo" class="h-full" />
 			<span class="text-xl font-bold">CyberCup.IT</span>
 		</a>
 	</div>
 
 	<div class="navbar-end flex items-center gap-4">
 		{#each menu as { name, path }}
-			<a href={path} class="btn btn-link text-white">
+			<a href="{base}/{path}" class="btn btn-link text-white">
 				{name}
 			</a>
 		{/each}
@@ -41,9 +42,9 @@
 		<div>
 			<h4 class="my-2 text-xl uppercase">Collegamenti</h4>
 			<ul class="ml-4">
-				<li class="my-2"><a href="/">Home</a></li>
-				<li class="my-2"><a href="/scoreboard">Scoreboard</a></li>
-				<li class="my-2"><a href="/who">Organizzatori</a></li>
+				<li class="my-2"><a href="{base}/">Home</a></li>
+				<li class="my-2"><a href="{base}/scoreboard">Scoreboard</a></li>
+				<li class="my-2"><a href="{base}/who">Organizzatori</a></li>
 			</ul>
 		</div>
 	</div>

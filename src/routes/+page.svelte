@@ -1,9 +1,10 @@
 <script lang="ts">
+	import { base } from '$app/paths';
 </script>
 
 <p class="text-center text-4xl font-bold">
 	CyberCup.IT 2025
-	<img src="/logo.png" alt="CyberCup Logo" class="ms-4 inline-block h-14" />
+	<img src="{base}/logo.png" alt="CyberCup Logo" class="ms-4 inline-block h-14" />
 </p>
 
 <p class="text-center text-2xl font-light">
