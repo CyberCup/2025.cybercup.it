@@ -23,7 +23,7 @@
 	</p>
 </div>
 
-<div class="prose max-w-full">
+<div class="prose mx-8 max-w-full">
 	<h2>Struttura del torneo</h2>
 	<p>CyberCup inizia a Gennaio 2025 e termina a Giugno 2025. Verrà svolta una gara al mese.</p>
 	<p>
