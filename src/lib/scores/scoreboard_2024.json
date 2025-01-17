@@ -1,152 +1,152 @@
 [
-  {
-    "team_name": "MadrHacks",
-    "affiliation": "Università degli Studi di Udine",
-    "score": 377.58,
-    "logo": "madrhacks.png"
-  },
-  {
-    "team_name": "k1nd4SUS",
-    "affiliation": "Università degli studi di Milano",
-    "score": 248.13,
-    "logo": "k1nd4SUS.png"
-  },
-  {
-    "team_name": "Ulisse",
-    "affiliation": "Università di Bologna",
-    "score": 178.8,
-    "logo": "ulisse.png"
-  },
-  {
-    "team_name": "ZenHack",
-    "affiliation": "Università degli studi di Genova",
-    "score": 162.14,
-    "logo": "zenhack.png"
-  },
-  {
-    "team_name": "IngrifHackTeam",
-    "affiliation": "Università degli Studi di Perugia",
-    "score": 44.73,
-    "logo": "IngrifisHack.png"
-  },
-  {
-    "team_name": "TRX",
-    "affiliation": "Sapienza Università di Roma",
-    "score": 248.63,
-    "logo": "trx.png"
-  },
-  {
-    "team_name": "CTF Swamp Team",
-    "affiliation": "",
-    "score": 0,
-    "logo": "ctfswamp.png"
-  },
-  {
-    "team_name": "Srdnlen",
-    "affiliation": "Università degli Studi di Cagliari",
-    "score": 365.4,
-    "logo": "srdnlen.png"
-  },
-  {
-    "team_name": "pwnthenope",
-    "affiliation": "Università degli Studi di Napoli Parthenope",
-    "score": 188.1,
-    "logo": "pwnthenope.png"
-  },
-  {
-    "team_name": "Cyb3rM0nk3ys",
-    "affiliation": "",
-    "score": 15,
-    "logo": "Cyb3rM0nk3ys.jpg"
-  },
-  {
-    "team_name": "Pwnlentoni",
-    "affiliation": "",
-    "score": 258.43,
-    "logo": "pwnlentoni.png"
-  },
-  {
-    "team_name": "FoocHackz",
-    "affiliation": "Università/Politecnico di Bari",
-    "score": 248.42,
-    "logo": "FoocHackz.png"
-  },
-  {
-    "team_name": "naslab",
-    "affiliation": "Università di Catania",
-    "score": 219.44,
-    "logo": "naslab.jpg"
-  },
-  {
-    "team_name": "Tower of Hanoi",
-    "affiliation": "Politecnico di Milano",
-    "score": 322.0,
-    "logo": "toh.png"
-  },
-  {
-    "team_name": "V:HackaBoia",
-    "affiliation": "Università degli studi della Campania Luigi Vanvitelli",
-    "score": 69.8,
-    "logo": "vhackaboia.png"
-  },
-  {
-    "team_name": "aetruria",
-    "affiliation": "Università di Parma, Università di Modena e Reggio Emilia, Università di Brescia",
-    "score": 321.1,
-    "logo": "aetruria.jpg"
-  },
-  {
-    "team_name": "H4ckan3derl1",
-    "affiliation": "Libera Università di Bolzano",
-    "score": 197.67,
-    "logo": "hackan3derl1.png"
-  },
-  {
-    "team_name": "UnisH4ck",
-    "affiliation": "Università di Salerno",
-    "score": 46.93,
-    "logo": "UnisH4ck.png"
-  },
-  {
-    "team_name": "hack^3",
-    "affiliation": "",
-    "score": 44.6,
-    "logo": "hack3.jpg"
-  },
-  {
-    "team_name": "CyberSp3ck",
-    "affiliation": "Università di Trento",
-    "score": 122.73,
-    "logo": "cybersp3ck.jpeg"
-  },
-  {
-    "team_name": "Spaghetti Code",
-    "affiliation": "",
-    "score": 0,
-    "logo": "default.jpg"
-  },
-  {
-    "team_name": "Spwnzati",
-    "affiliation": "",
-    "score": 168.8,
-    "logo": "Spwnzati.png"
-  },
-  {
-    "team_name": "PWNC4M",
-    "affiliation": "Università degli Studi di Camerino",
-    "score": 255.94,
-    "logo": "pwnc4m.png"
-  },
-  {
-    "team_name": "bhackari",
-    "affiliation": "Università Ca' Foscari di Venezia",
-    "score": 157.6,
-    "logo": "bhackari.jpg"
-  },
-  {
-    "team_name": "Hidden Issue",
-    "affiliation": "",
-    "score": 145.93,
-    "logo": "hiddenissue.png"
-  }
+	{
+		"team_name": "MadrHacks",
+		"affiliation": "Università degli Studi di Udine",
+		"score": 377.58,
+		"logo": "madrhacks.png"
+	},
+	{
+		"team_name": "k1nd4SUS",
+		"affiliation": "Università degli studi di Milano",
+		"score": 248.13,
+		"logo": "k1nd4SUS.png"
+	},
+	{
+		"team_name": "Ulisse",
+		"affiliation": "Università di Bologna",
+		"score": 178.8,
+		"logo": "ulisse.png"
+	},
+	{
+		"team_name": "ZenHack",
+		"affiliation": "Università degli studi di Genova",
+		"score": 162.14,
+		"logo": "zenhack.png"
+	},
+	{
+		"team_name": "IngrifHackTeam",
+		"affiliation": "Università degli Studi di Perugia",
+		"score": 44.73,
+		"logo": "IngrifisHack.png"
+	},
+	{
+		"team_name": "TRX",
+		"affiliation": "Sapienza Università di Roma",
+		"score": 248.63,
+		"logo": "trx.png"
+	},
+	{
+		"team_name": "CTF Swamp Team",
+		"affiliation": "",
+		"score": 0,
+		"logo": "ctfswamp.png"
+	},
+	{
+		"team_name": "Srdnlen",
+		"affiliation": "Università degli Studi di Cagliari",
+		"score": 365.4,
+		"logo": "srdnlen.png"
+	},
+	{
+		"team_name": "pwnthenope",
+		"affiliation": "Università degli Studi di Napoli Parthenope",
+		"score": 188.1,
+		"logo": "pwnthenope.png"
+	},
+	{
+		"team_name": "Cyb3rM0nk3ys",
+		"affiliation": "",
+		"score": 15,
+		"logo": "Cyb3rM0nk3ys.jpg"
+	},
+	{
+		"team_name": "Pwnlentoni",
+		"affiliation": "",
+		"score": 258.43,
+		"logo": "pwnlentoni.png"
+	},
+	{
+		"team_name": "FoocHackz",
+		"affiliation": "Università/Politecnico di Bari",
+		"score": 248.42,
+		"logo": "FoocHackz.png"
+	},
+	{
+		"team_name": "naslab",
+		"affiliation": "Università di Catania",
+		"score": 219.44,
+		"logo": "naslab.jpg"
+	},
+	{
+		"team_name": "Tower of Hanoi",
+		"affiliation": "Politecnico di Milano",
+		"score": 322.0,
+		"logo": "toh.png"
+	},
+	{
+		"team_name": "V:HackaBoia",
+		"affiliation": "Università degli studi della Campania Luigi Vanvitelli",
+		"score": 69.8,
+		"logo": "vhackaboia.png"
+	},
+	{
+		"team_name": "aetruria",
+		"affiliation": "Università di Parma, Università di Modena e Reggio Emilia, Università di Brescia",
+		"score": 321.1,
+		"logo": "aetruria.jpg"
+	},
+	{
+		"team_name": "H4ckan3derl1",
+		"affiliation": "Libera Università di Bolzano",
+		"score": 197.67,
+		"logo": "hackan3derl1.png"
+	},
+	{
+		"team_name": "UnisH4ck",
+		"affiliation": "Università di Salerno",
+		"score": 46.93,
+		"logo": "UnisH4ck.png"
+	},
+	{
+		"team_name": "hack^3",
+		"affiliation": "",
+		"score": 44.6,
+		"logo": "hack3.jpg"
+	},
+	{
+		"team_name": "CyberSp3ck",
+		"affiliation": "Università di Trento",
+		"score": 122.73,
+		"logo": "cybersp3ck.jpeg"
+	},
+	{
+		"team_name": "Spaghetti Code",
+		"affiliation": "",
+		"score": 0,
+		"logo": "default.jpg"
+	},
+	{
+		"team_name": "Spwnzati",
+		"affiliation": "",
+		"score": 168.8,
+		"logo": "Spwnzati.png"
+	},
+	{
+		"team_name": "PWNC4M",
+		"affiliation": "Università degli Studi di Camerino",
+		"score": 255.94,
+		"logo": "pwnc4m.png"
+	},
+	{
+		"team_name": "bhackari",
+		"affiliation": "Università Ca' Foscari di Venezia",
+		"score": 157.6,
+		"logo": "bhackari.jpg"
+	},
+	{
+		"team_name": "Hidden Issue",
+		"affiliation": "",
+		"score": 145.93,
+		"logo": "hiddenissue.png"
+	}
 ]

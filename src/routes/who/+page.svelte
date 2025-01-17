@@ -2,8 +2,8 @@
 	import organizers from '$lib/organizers.json';
 </script>
 
-<h2 class="text-center text-3xl font-bold mb-8">Comitato Organizzatore CyberCup.IT 2025:</h2>
-<table class="table-zebra table">
+<h2 class="mb-8 text-center text-3xl font-bold">Comitato Organizzatore CyberCup.IT 2025:</h2>
+<table class="table table-zebra">
 	<thead>
 		<tr>
 			<th>Nome</th>

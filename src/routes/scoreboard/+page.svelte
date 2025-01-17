@@ -5,7 +5,7 @@
 </script>
 
 <h2 class="mb-8 text-center text-3xl font-bold">Calendario CTF CyberCup.IT 2025:</h2>
-<table class="table table-zebra table-lg table-pin-rows">
+<table class="table table-zebra table-pin-rows table-lg">
 	<thead>
 		<tr>
 			<th></th>
@@ -34,16 +34,16 @@
 <style>
 	.gold {
 		background-color: #e9d45b !important;
-        color: black;
+		color: black;
 	}
 
 	.silver {
 		background-color: #d7d7d7 !important;
-        color: black;
+		color: black;
 	}
 
 	.bronze {
 		background-color: #f6993c !important;
-        color: black;
+		color: black;
 	}
 </style>

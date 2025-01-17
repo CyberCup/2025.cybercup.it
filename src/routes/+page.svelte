@@ -1,17 +1,16 @@
 <script lang="ts">
-	import Logo from './logo.png';
 </script>
 
 <p class="text-center text-4xl font-bold">
 	CyberCup.IT 2025
-	<img src={Logo} alt="CyberCup Logo" class="ms-4 inline-block h-14" />
+	<img src="/logo.png" alt="CyberCup Logo" class="ms-4 inline-block h-14" />
 </p>
 
 <p class="text-center text-2xl font-light">
 	CyberCup è il primo torneo italiano di Capture The Flag
 </p>
 
-<div class="bg-sky-200 text-black my-8 px-8 py-8 text-center">
+<div class="my-8 bg-sky-200 px-8 py-8 text-center text-black">
 	<h2 class="mb-8 text-5xl font-light">Come funziona CyberCup?</h2>
 	<p>
 		Il programma consiste in un torneo Capture The Flag, costituito da vari eventi organizzati da

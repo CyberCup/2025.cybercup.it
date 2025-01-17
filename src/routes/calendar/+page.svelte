@@ -16,7 +16,7 @@
 </script>
 
 <h2 class="mb-8 text-center text-3xl font-bold">Calendario CTF CyberCup.IT 2025:</h2>
-<table class="table-zebra table-lg table">
+<table class="table table-zebra table-lg">
 	<thead>
 		<tr>
 			<th>Round</th>
