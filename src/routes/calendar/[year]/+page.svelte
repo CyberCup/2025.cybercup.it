@@ -1,18 +1,8 @@
 <script lang="ts">
-	const calendar = [
-		{
-			title: 'Gennaio 2025 (1° Round)',
-			ctf: 'Srdnlen CTF',
-			date: 'Inizio: 18 Gennaio 2025, 19:00 CET - Fine: 19 Gennaio 2025, 19:00 CEST',
-			website: 'https://ctf.srdnlen.it/',
-			ctftime: '2576'
-		},
-		{ title: 'Febbraio 2025 (2° Round)' },
-		{ title: 'Marzo 2025 (3° Round)' },
-		{ title: 'Aprile 2025 (4° Round)' },
-		{ title: 'Maggio 2025 (5° Round)' },
-		{ title: 'Giugno 2025 (6° Round)' }
-	];
+	import type { PageData } from './$types';
+
+	let { data }: { data: PageData } = $props();
+	let calendar = $derived(data.calendar);
 </script>
 
 <h2 class="mb-8 text-center text-3xl font-bold">Calendario CTF CyberCup.IT 2025:</h2>
@@ -24,6 +14,7 @@
 			<th>Data</th>
 			<th>Sito ufficiale</th>
 			<th>CTFTime</th>
+			<th>Writeups</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -48,7 +39,21 @@
 						</a>
 					{/if}
 				</td>
+				<td>
+					{#if event.writeups != null}
+						<a class="btn btn-link" href={event.writeups} target="_blank">Writeups</a>
+					{/if}
+				</td>
 			</tr>
 		{/each}
 	</tbody>
 </table>
+
+<h2 class="mb-4 mt-16 text-center text-3xl font-bold">Tutti i calendari:</h2>
+<div class="flex justify-center gap-x-4">
+	{#each data.years as year}
+		<a class="btn btn-info" class:btn-active={year === data.year} href="/calendar/{year}">
+			{year}
+		</a>
+	{/each}
+</div>

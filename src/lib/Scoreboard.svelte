@@ -1,11 +1,5 @@
 <script lang="ts">
-	type Scoreboard = {
-		team_name: string;
-		affiliation: string;
-		score: number;
-		logo: string;
-		website?: string;
-	}[];
+	import type { Scoreboard } from '$lib';
 
 	let { scoreboard }: { scoreboard: Scoreboard } = $props();
 

@@ -1,12 +1,12 @@
 <script lang="ts">
 	import { goto } from '$app/navigation';
 	import { base } from '$app/paths';
-	import { crossfade, fade, slide } from 'svelte/transition';
+	import { slide } from 'svelte/transition';
 	import '../app.css';
 
 	let { children } = $props();
 
-	const menu = [
+	const MENU = [
 		{ name: 'Home', path: '' },
 		{ name: 'Organizzatori', path: 'who' },
 		{ name: 'Calendario', path: 'calendar' },
@@ -26,7 +26,7 @@
 		</div>
 
 		<div class="navbar-end hidden items-center gap-4 md:flex">
-			{#each menu as { name, path }}
+			{#each MENU as { name, path }}
 				<a href="{base}/{path}" class="btn btn-link text-white">
 					{name}
 				</a>
@@ -58,7 +58,7 @@
 
 	{#if mobileMenuOpen}
 		<div transition:slide class="mt-4 flex flex-col justify-center text-center" id="mobile-menu">
-			{#each menu as { name, path }}
+			{#each MENU as { name, path }}
 				<button
 					class="btn btn-link block text-white md:hidden"
 					onclick={() => {
