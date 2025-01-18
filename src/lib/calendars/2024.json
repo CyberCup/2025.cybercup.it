@@ -1,75 +1,75 @@
 [
-    {
-        "title": "Settembre 2023 (-1° Round - Questo round non sarà conteggiato nella scoreboard finale)",
-        "ctf": "TeamItaly CTF",
-        "date": "Inizio: 30 Settembre 2023, 14:00 CEST - Fine: 1 Ottobre 2023, 14:00 CEST",
-        "website": "https://ctf.teamitaly.eu/",
-        "ctftime": "2088"
-    },
-    {
-        "title": "Ottobre 2023 (1° Round)",
-        "ctf": "Srdnlen CTF",
-        "date": "Inizio: 28 Ottobre 2023, 16:00 CEST - Fine: 29 Ottobre 2023, 15:00 CET",
-        "website": "https://ctf.srdnlen.it",
-        "ctftime": "2129",
-        "writeups": "https://drive.google.com/drive/folders/1PnZr_BJ5rhRGyPky7rRo4e8WJ3ms8cIt?usp=sharing"
-    },
-    {
-        "title": "Novembre 2023 (2° Round)",
-        "ctf": "saarCTF",
-        "date": "Inizio: 18 Novembre 2023, 14:00 CET - Fine: 18 Novembre 2023, 23:00 CET",
-        "website": "https://ctf.saarland/",
-        "ctftime": "2049",
-        "writeups": "https://drive.google.com/drive/folders/13svRpJTAy7PZAuokcdEhJ5k1GrJPZPPs?usp=sharing"
-    },
-    {
-        "title": "Dicembre 2023 (3° Round)",
-        "ctf": "snakeCTF",
-        "date": "Inizio: 9 dicembre 2023, 10:00 CET - Fine: 10 dicembre 2023, 10:00 CET",
-        "website": "https://2023.snakectf.org",
-        "ctftime": "2158",
-        "writeups": "https://drive.google.com/drive/folders/1yKV97K70OqWMCwGhKqShpfAhYUu9gRuU?usp=sharing"
-    },
-    {
-        "title": "Gennaio 2024 (4° Round)",
-        "ctf": "Insomni'hack teaser",
-        "date": "Inizio: 20/01/2024, 10:00 CET - Fine: 21/01/2024, 10:00 CET",
-        "website": "https://insomnihack.ch/contests/",
-        "ctftime": "2139"
-    },
-    {
-        "title": "Febbraio 2024 (5° Round)",
-        "ctf": "LA CTF 2024",
-        "date": "Inizio: 17/02/2024, 05:00 CET - Fine: 18/02/2024, 23:00 CET",
-        "website": "https://lac.tf/",
-        "ctftime": "2102"
-    },
-    {
-        "title": "Marzo 2024 (6° Round)",
-        "ctf": "LINE CTF 2024",
-        "date": "Inizio: 23/03/2024, 01:00 CET - Fine: 24/03/2024, 01:00 CET",
-        "website": "https://linectf.me/",
-        "ctftime": "2119"
-    },
-    {
-        "title": "Aprile 2024 (7° Round)",
-        "ctf": "UMass CTF 2024",
-        "date": "Inizio: 20/04/2024, 00:00 CEST - Fine: 22/03/2024, 00:00 CEST",
-        "website": "https://ctf.umasscybersec.org/",
-        "ctftime": "2287"
-    },
-    {
-        "title": "Maggio 2024 (8° Round)",
-        "ctf": "L3akCTF 2024",
-        "date": "Inizio: 24/05/2024, 14:00 CEST - Fine: 26/05/2024, 14:00 CEST",
-        "website": "https://ctf.l3ak.team/",
-        "ctftime": "2322"
-    },
-    {
-        "title": "Giugno 2024 (9° Round)",
-        "ctf": "UIUCTF 2024",
-        "date": "Inizio: 29/06/2024, 02:00 CEST - Fine: 01/07/2024, 02:00 CEST",
-        "website": "https://uiuc.tf/",
-        "ctftime": "2275"
-    }
+	{
+		"title": "Settembre 2023 (-1° Round - Questo round non sarà conteggiato nella scoreboard finale)",
+		"ctf": "TeamItaly CTF",
+		"date": "Inizio: 30 Settembre 2023, 14:00 CEST - Fine: 1 Ottobre 2023, 14:00 CEST",
+		"website": "https://ctf.teamitaly.eu/",
+		"ctftime": "2088"
+	},
+	{
+		"title": "Ottobre 2023 (1° Round)",
+		"ctf": "Srdnlen CTF",
+		"date": "Inizio: 28 Ottobre 2023, 16:00 CEST - Fine: 29 Ottobre 2023, 15:00 CET",
+		"website": "https://ctf.srdnlen.it",
+		"ctftime": "2129",
+		"writeups": "https://drive.google.com/drive/folders/1PnZr_BJ5rhRGyPky7rRo4e8WJ3ms8cIt?usp=sharing"
+	},
+	{
+		"title": "Novembre 2023 (2° Round)",
+		"ctf": "saarCTF",
+		"date": "Inizio: 18 Novembre 2023, 14:00 CET - Fine: 18 Novembre 2023, 23:00 CET",
+		"website": "https://ctf.saarland/",
+		"ctftime": "2049",
+		"writeups": "https://drive.google.com/drive/folders/13svRpJTAy7PZAuokcdEhJ5k1GrJPZPPs?usp=sharing"
+	},
+	{
+		"title": "Dicembre 2023 (3° Round)",
+		"ctf": "snakeCTF",
+		"date": "Inizio: 9 dicembre 2023, 10:00 CET - Fine: 10 dicembre 2023, 10:00 CET",
+		"website": "https://2023.snakectf.org",
+		"ctftime": "2158",
+		"writeups": "https://drive.google.com/drive/folders/1yKV97K70OqWMCwGhKqShpfAhYUu9gRuU?usp=sharing"
+	},
+	{
+		"title": "Gennaio 2024 (4° Round)",
+		"ctf": "Insomni'hack teaser",
+		"date": "Inizio: 20/01/2024, 10:00 CET - Fine: 21/01/2024, 10:00 CET",
+		"website": "https://insomnihack.ch/contests/",
+		"ctftime": "2139"
+	},
+	{
+		"title": "Febbraio 2024 (5° Round)",
+		"ctf": "LA CTF 2024",
+		"date": "Inizio: 17/02/2024, 05:00 CET - Fine: 18/02/2024, 23:00 CET",
+		"website": "https://lac.tf/",
+		"ctftime": "2102"
+	},
+	{
+		"title": "Marzo 2024 (6° Round)",
+		"ctf": "LINE CTF 2024",
+		"date": "Inizio: 23/03/2024, 01:00 CET - Fine: 24/03/2024, 01:00 CET",
+		"website": "https://linectf.me/",
+		"ctftime": "2119"
+	},
+	{
+		"title": "Aprile 2024 (7° Round)",
+		"ctf": "UMass CTF 2024",
+		"date": "Inizio: 20/04/2024, 00:00 CEST - Fine: 22/03/2024, 00:00 CEST",
+		"website": "https://ctf.umasscybersec.org/",
+		"ctftime": "2287"
+	},
+	{
+		"title": "Maggio 2024 (8° Round)",
+		"ctf": "L3akCTF 2024",
+		"date": "Inizio: 24/05/2024, 14:00 CEST - Fine: 26/05/2024, 14:00 CEST",
+		"website": "https://ctf.l3ak.team/",
+		"ctftime": "2322"
+	},
+	{
+		"title": "Giugno 2024 (9° Round)",
+		"ctf": "UIUCTF 2024",
+		"date": "Inizio: 29/06/2024, 02:00 CEST - Fine: 01/07/2024, 02:00 CEST",
+		"website": "https://uiuc.tf/",
+		"ctftime": "2275"
+	}
 ]
