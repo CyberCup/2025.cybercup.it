@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { base } from '$app/paths';
 	import type { Scoreboard } from '$lib';
 
 	let { scoreboard }: { scoreboard: Scoreboard } = $props();
@@ -26,7 +27,7 @@
 			{@const bronze = i === 2}
 			<tr class:gold class:silver class:bronze>
 				<td>{i + 1}</td>
-				<td class="w-24 p-2"><img src="/logos/{team.logo}" alt={team.team_name} /></td>
+				<td class="w-24 p-2"><img src="{base}/logos/{team.logo}" alt={team.team_name} /></td>
 				<td>
 					{#if team.website != null}
 						<a href={team.website} class="link">{team.team_name}</a>
