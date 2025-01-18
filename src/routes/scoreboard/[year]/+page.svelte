@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { base } from '$app/paths';
 	import Scoreboard from '$lib/Scoreboard.svelte';
 	import type { PageData } from './$types';
 
@@ -11,7 +12,7 @@
 <h2 class="mb-4 mt-16 text-center text-3xl font-bold">Tutte le classifiche:</h2>
 <div class="flex justify-center gap-x-4">
 	{#each data.years as year}
-		<a class="btn btn-info" class:btn-active={year === data.year} href="/scoreboard/{year}">
+		<a class="btn btn-info" class:btn-active={year === data.year} href="{base}/scoreboard/{year}">
 			{year}
 		</a>
 	{/each}

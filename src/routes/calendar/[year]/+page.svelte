@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { base } from '$app/paths';
 	import type { PageData } from './$types';
 
 	let { data }: { data: PageData } = $props();
@@ -52,7 +53,7 @@
 <h2 class="mb-4 mt-16 text-center text-3xl font-bold">Tutti i calendari:</h2>
 <div class="flex justify-center gap-x-4">
 	{#each data.years as year}
-		<a class="btn btn-info" class:btn-active={year === data.year} href="/calendar/{year}">
+		<a class="btn btn-info" class:btn-active={year === data.year} href="{base}/calendar/{year}">
 			{year}
 		</a>
 	{/each}
