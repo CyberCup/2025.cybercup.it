@@ -77,13 +77,13 @@
 	{@render children()}
 </div>
 
-<div class="w-full bg-slate-200 py-16 text-black px-16">
-	<div
-		class="container mx-8 grid gap-8 md:mx-auto md:grid-cols-2 md:text-inherit lg:max-w-[80rem]"
-	>
+<div class="w-full bg-slate-200 px-16 py-16 text-black">
+	<div class="container mx-8 grid gap-8 md:mx-auto md:grid-cols-2 md:text-inherit lg:max-w-[80rem]">
 		<div class="mb-8">
 			<h4 class="my-2 text-xl uppercase">Contatti</h4>
-			<p>Email: davide.maiorca@unica.it</p>
+			<p>
+				Email: <a class="link" href="mailto:davide.maiorca@unica.it">davide.maiorca@unica.it</a>
+			</p>
 		</div>
 		<div>
 			<h4 class="my-2 text-xl uppercase">Collegamenti</h4>

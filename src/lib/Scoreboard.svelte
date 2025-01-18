@@ -4,6 +4,7 @@
 		affiliation: string;
 		score: number;
 		logo: string;
+		website?: string;
 	}[];
 
 	let { scoreboard }: { scoreboard: Scoreboard } = $props();
@@ -32,7 +33,13 @@
 			<tr class:gold class:silver class:bronze>
 				<td>{i + 1}</td>
 				<td class="w-24 p-2"><img src="/logos/{team.logo}" alt={team.team_name} /></td>
-				<td>{team.team_name}</td>
+				<td>
+					{#if team.website != null}
+						<a href={team.website} class="link">{team.team_name}</a>
+					{:else}
+						{team.team_name}
+					{/if}
+				</td>
 				<td>{team.affiliation}</td>
 				<td>{team.score}</td>
 			</tr>

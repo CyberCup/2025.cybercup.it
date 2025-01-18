@@ -3,25 +3,29 @@
 		"team_name": "MadrHacks",
 		"affiliation": "Università degli Studi di Udine",
 		"score": 377.58,
-		"logo": "madrhacks.png"
+		"logo": "madrhacks.png",
+		"website": "https://www.madrhacks.org/"
 	},
 	{
 		"team_name": "k1nd4SUS",
 		"affiliation": "Università degli studi di Milano",
 		"score": 248.13,
-		"logo": "k1nd4SUS.png"
+		"logo": "k1nd4SUS.png",
+		"website": "https://k1nd4sus.it/"
 	},
 	{
 		"team_name": "Ulisse",
 		"affiliation": "Università di Bologna",
 		"score": 178.8,
-		"logo": "ulisse.png"
+		"logo": "ulisse.png",
+		"website": "https://ctf.ulis.se/"
 	},
 	{
 		"team_name": "ZenHack",
 		"affiliation": "Università degli studi di Genova",
 		"score": 162.14,
-		"logo": "zenhack.png"
+		"logo": "zenhack.png",
+		"website": "https://zenhack.it/"
 	},
 	{
 		"team_name": "IngrifHackTeam",
@@ -33,7 +37,8 @@
 		"team_name": "TRX",
 		"affiliation": "Sapienza Università di Roma",
 		"score": 248.63,
-		"logo": "trx.png"
+		"logo": "trx.png",
+		"website": "https://theromanxpl0.it/"
 	},
 	{
 		"team_name": "CTF Swamp Team",
@@ -45,7 +50,8 @@
 		"team_name": "Srdnlen",
 		"affiliation": "Università degli Studi di Cagliari",
 		"score": 365.4,
-		"logo": "srdnlen.png"
+		"logo": "srdnlen.png",
+		"website": "https://srdnlen.it/"
 	},
 	{
 		"team_name": "pwnthenope",
@@ -69,19 +75,22 @@
 		"team_name": "FoocHackz",
 		"affiliation": "Università/Politecnico di Bari",
 		"score": 248.42,
-		"logo": "FoocHackz.png"
+		"logo": "FoocHackz.png",
+		"website": "https://pwnzer0tt1.it/"
 	},
 	{
 		"team_name": "naslab",
 		"affiliation": "Università di Catania",
 		"score": 219.44,
-		"logo": "naslab.jpg"
+		"logo": "naslab.jpg",
+		"website": "https://nas.dmi.unict.it/index.html"
 	},
 	{
 		"team_name": "Tower of Hanoi",
 		"affiliation": "Politecnico di Milano",
 		"score": 322.0,
-		"logo": "toh.png"
+		"logo": "toh.png",
+		"website": "https://towerofhanoi.it/"
 	},
 	{
 		"team_name": "V:HackaBoia",
@@ -117,7 +126,8 @@
 		"team_name": "CyberSp3ck",
 		"affiliation": "Università di Trento",
 		"score": 122.73,
-		"logo": "cybersp3ck.jpeg"
+		"logo": "cybersp3ck.jpeg",
+		"website": "https://cybersp3ck.github.io/"
 	},
 	{
 		"team_name": "Spaghetti Code",
