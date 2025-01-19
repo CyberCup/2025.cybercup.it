@@ -16,7 +16,7 @@
 	let mobileMenuOpen = $state(false);
 </script>
 
-<div class="mb-16 w-full bg-blue p-0 px-16">
+<div class="mb-16 w-full bg-primary p-0 px-16">
 	<nav class="navbar m-0 max-h-16 p-0 text-white">
 		<div class="navbar-center flex md:navbar-start">
 			<a href="{base}/" class="btn btn-ghost">
@@ -31,6 +31,8 @@
 					{name}
 				</a>
 			{/each}
+
+			<a href="https://discord.gg/rq3PGpzgqp" class="btn bg-white text-black hover:bg-gray-400">Server Discord</a>
 		</div>
 
 		<div class="navbar-end md:hidden">

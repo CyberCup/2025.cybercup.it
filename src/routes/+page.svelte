@@ -2,14 +2,16 @@
 	import { base } from '$app/paths';
 </script>
 
-<p class="text-center text-4xl font-bold">
-	CyberCup.IT 2025
-	<img src="{base}/logo.png" alt="CyberCup Logo" class="ms-4 inline-block h-14" />
-</p>
+<div class="my-20">
+	<p class="text-center text-4xl font-bold">
+		CyberCup.IT 2025
+		<img src="{base}/logo.png" alt="CyberCup Logo" class="ms-4 inline-block h-14" />
+	</p>
 
-<p class="text-center text-2xl font-light">
-	CyberCup è il primo torneo italiano di Capture The Flag
-</p>
+	<p class="text-center text-2xl font-light">
+		CyberCup è il primo torneo italiano di Capture The Flag
+	</p>
+</div>
 
 <div class="my-8 bg-sky-200 px-8 py-8 text-center text-black">
 	<h2 class="mb-8 text-5xl font-light">Come funziona CyberCup?</h2>
