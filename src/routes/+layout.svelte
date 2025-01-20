@@ -10,7 +10,8 @@
 		{ name: 'Home', path: '' },
 		{ name: 'Organizzatori', path: 'who' },
 		{ name: 'Calendario', path: 'calendar' },
-		{ name: 'Scoreboard', path: 'scoreboard' }
+		{ name: 'Scoreboard', path: 'scoreboard' },
+		{ name: 'Iscriviti', path: 'register' }
 	];
 
 	let mobileMenuOpen = $state(false);
@@ -32,7 +33,9 @@
 				</a>
 			{/each}
 
-			<a href="https://discord.gg/rq3PGpzgqp" class="btn bg-white text-black hover:bg-gray-400">Server Discord</a>
+			<a href="https://discord.gg/rq3PGpzgqp" class="btn bg-white text-black hover:bg-gray-400"
+				>Server Discord</a
+			>
 		</div>
 
 		<div class="navbar-end md:hidden">
