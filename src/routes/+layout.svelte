@@ -131,8 +131,11 @@
 </div>
 
 <div class="flex w-full flex-col items-center justify-center gap-4 bg-gray-400 py-4 text-black">
-	<p>Made with ❤️ & SvelteKit </p>
-	<p> Report issues on <a class="link" href="https://github.com/CyberCup/2025.cybercup.it/issues/new"> GitHub </a></p>
+	<p>Made with ❤️ & SvelteKit</p>
+	<p>
+		Report issues on
+		<a class="link" href="https://github.com/CyberCup/2025.cybercup.it/issues/new"> GitHub </a>
+	</p>
 	<p>© Cybercup.IT 2025</p>
 </div>
 

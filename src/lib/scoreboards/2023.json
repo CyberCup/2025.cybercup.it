@@ -1,121 +1,121 @@
 [
-    {
-        "team_name": "Tower of Hanoi",
-        "affiliation": "Politecnico di Milano",
-        "score": 180,
-        "logo": "toh.png",
-        "website": "https://towerofhanoi.it/"
-    },
-    {
-        "team_name": "Srdnlen",
-        "affiliation": "Università degli Studi di Cagliari",
-        "score": 162,
-        "logo": "srdnlen.png",
-        "website": ""
-    },
-    {
-        "team_name": "MadrHacks",
-        "affiliation": "Università degli Studi di Udine",
-        "score": 157,
-        "logo": "madrhacks.png",
-        "website": ""
-    },
-    {
-        "team_name": "TRX",
-        "affiliation": "Sapienza Università di Roma",
-        "score": 146,
-        "logo": "trx.png",
-        "website": ""
-    },
-    {
-        "team_name": "Pwnzer0tt1",
-        "affiliation": "Politecnico di Bari",
-        "score": 131,
-        "logo": "pwnzer0tt1.png",
-        "website": ""
-    },
-    {
-        "team_name": "ZenHack",
-        "affiliation": "Università degli Studi di Genova",
-        "score": 120,
-        "logo": "zenhack.png",
-        "website": ""
-    },
-    {
-        "team_name": "pwnthenope",
-        "affiliation": "Università degli Studi di Napoli Parthenope",
-        "score": 100,
-        "logo": "pwnthenope.png",
-        "website": ""
-    },
-    {
-        "team_name": "Ulisse",
-        "affiliation": "Università di Bologna",
-        "score": 90,
-        "logo": "ulisse.png",
-        "website": ""
-    },
-    {
-        "team_name": "NasLab",
-        "affiliation": "Università di Catania",
-        "score": 80,
-        "logo": "default.jpg",
-        "website": ""
-    },
-    {
-        "team_name": "fibonhack",
-        "affiliation": "Università di Pisa",
-        "score": 80,
-        "logo": "default.jpg",
-        "website": ""
-    },
-    {
-        "team_name": "V:HackaBoia",
-        "affiliation": "Università degli Studi della Campania \"Luigi Vanvitelli\"",
-        "score": 80,
-        "logo": "vhackaboia.png",
-        "website": ""
-    },
-    {
-        "team_name": "0xFE",
-        "affiliation": "Università di Ferrara",
-        "score": 65,
-        "logo": "0xfe.jpg",
-        "website": ""
-    },
-    {
-        "team_name": "Hack^3",
-        "affiliation": "",
-        "score": 60,
-        "logo": "default.jpg",
-        "website": ""
-    },
-    {
-        "team_name": "IngrifHackTeam",
-        "affiliation": "Università degli Studi di Perugia",
-        "score": 36,
-        "logo": "default.jpg",
-        "website": ""
-    },
-    {
-        "team_name": "1manstanding",
-        "affiliation": "",
-        "score": 25,
-        "logo": "default.jpg",
-        "website": ""
-    },
-    {
-        "team_name": "UnisH4ck",
-        "affiliation": "Università di Salerno",
-        "score": 25,
-        "logo": "default.jpg",
-        "website": ""
-    },
-    {
-        "team_name": "MetaGriPwn Hacklab",
-        "affiliation": "Università di Messina",
-        "score": 21,
-        "logo": "default.jpg",
-        "website": ""
-    }
+	{
+		"team_name": "Tower of Hanoi",
+		"affiliation": "Politecnico di Milano",
+		"score": 180,
+		"logo": "toh.png",
+		"website": "https://towerofhanoi.it/"
+	},
+	{
+		"team_name": "Srdnlen",
+		"affiliation": "Università degli Studi di Cagliari",
+		"score": 162,
+		"logo": "srdnlen.png",
+		"website": ""
+	},
+	{
+		"team_name": "MadrHacks",
+		"affiliation": "Università degli Studi di Udine",
+		"score": 157,
+		"logo": "madrhacks.png",
+		"website": ""
+	},
+	{
+		"team_name": "TRX",
+		"affiliation": "Sapienza Università di Roma",
+		"score": 146,
+		"logo": "trx.png",
+		"website": ""
+	},
+	{
+		"team_name": "Pwnzer0tt1",
+		"affiliation": "Politecnico di Bari",
+		"score": 131,
+		"logo": "pwnzer0tt1.png",
+		"website": ""
+	},
+	{
+		"team_name": "ZenHack",
+		"affiliation": "Università degli Studi di Genova",
+		"score": 120,
+		"logo": "zenhack.png",
+		"website": ""
+	},
+	{
+		"team_name": "pwnthenope",
+		"affiliation": "Università degli Studi di Napoli Parthenope",
+		"score": 100,
+		"logo": "pwnthenope.png",
+		"website": ""
+	},
+	{
+		"team_name": "Ulisse",
+		"affiliation": "Università di Bologna",
+		"score": 90,
+		"logo": "ulisse.png",
+		"website": ""
+	},
+	{
+		"team_name": "NasLab",
+		"affiliation": "Università di Catania",
+		"score": 80,
+		"logo": "default.jpg",
+		"website": ""
+	},
+	{
+		"team_name": "fibonhack",
+		"affiliation": "Università di Pisa",
+		"score": 80,
+		"logo": "default.jpg",
+		"website": ""
+	},
+	{
+		"team_name": "V:HackaBoia",
+		"affiliation": "Università degli Studi della Campania \"Luigi Vanvitelli\"",
+		"score": 80,
+		"logo": "vhackaboia.png",
+		"website": ""
+	},
+	{
+		"team_name": "0xFE",
+		"affiliation": "Università di Ferrara",
+		"score": 65,
+		"logo": "0xfe.jpg",
+		"website": ""
+	},
+	{
+		"team_name": "Hack^3",
+		"affiliation": "",
+		"score": 60,
+		"logo": "default.jpg",
+		"website": ""
+	},
+	{
+		"team_name": "IngrifHackTeam",
+		"affiliation": "Università degli Studi di Perugia",
+		"score": 36,
+		"logo": "default.jpg",
+		"website": ""
+	},
+	{
+		"team_name": "1manstanding",
+		"affiliation": "",
+		"score": 25,
+		"logo": "default.jpg",
+		"website": ""
+	},
+	{
+		"team_name": "UnisH4ck",
+		"affiliation": "Università di Salerno",
+		"score": 25,
+		"logo": "default.jpg",
+		"website": ""
+	},
+	{
+		"team_name": "MetaGriPwn Hacklab",
+		"affiliation": "Università di Messina",
+		"score": 21,
+		"logo": "default.jpg",
+		"website": ""
+	}
 ]
