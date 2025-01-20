@@ -1,12 +1,9 @@
 <script lang="ts">
-	import { base } from '$app/paths';
-	import type { PageData } from './$types';
+	import type { Calendar } from '$lib';
 
-	let { data }: { data: PageData } = $props();
-	let calendar = $derived(data.calendar);
+	let { calendar }: { calendar: Calendar } = $props();
 </script>
 
-<h2 class="mb-8 text-center text-3xl font-bold">Calendario CTF CyberCup.IT 2025:</h2>
 <table class="table table-zebra table-lg">
 	<thead>
 		<tr>
@@ -49,12 +46,3 @@
 		{/each}
 	</tbody>
 </table>
-
-<h2 class="mb-4 mt-16 text-center text-3xl font-bold">Tutti i calendari:</h2>
-<div class="flex justify-center gap-x-4">
-	{#each data.years as year}
-		<a class="btn btn-info" class:btn-active={year === data.year} href="{base}/calendar/{year}">
-			{year}
-		</a>
-	{/each}
-</div>

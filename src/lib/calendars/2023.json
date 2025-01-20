@@ -1,0 +1,30 @@
+[
+    {
+        "title": "Marzo 2023 (1° Round)",
+        "ctf": "B01lers CTF",
+        "date": "Inizio: 17 Marzo 2023, 22:00 UTC - Fine: 19 Marzo 2023, 22:00 UTC",
+        "website": "http://ctf.b01lers.com/",
+        "ctftime": "1875"
+    },
+    {
+        "title": "Aprile 2023 (2° Round)",
+        "ctf": "HackPack CTF",
+        "date": "Inizio: 14 Aprile 2023, 15:00 UTC - Fine: 15 Aprile 2023, 14:59 UTC",
+        "website": "https://hackpack.club/ctf2023/",
+        "ctftime": "1893"
+    },
+    {
+        "title": "Maggio 2023 (3° Round)",
+        "ctf": "m0leCon CTF 2023 Teaser",
+        "date": "Inizio: 12 Maggio 2023, 17:00 UTC - Fine: 13 Maggio 2023, 17:00 UTC",
+        "website": "https://m0lecon.it/",
+        "ctftime": "1898"
+    },
+    {
+        "title": "Giugno 2023 (4° Round)",
+        "ctf": "GPN CTF",
+        "date": "Inizio: 9 Giugno 2023, 10:00 UTC - Fine: 10 Giugno 2023, 21:59 UTC",
+        "website": "https://ctf.kitctf.de/",
+        "ctftime": "1965"
+    }
+]

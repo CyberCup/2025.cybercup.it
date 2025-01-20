@@ -2,9 +2,15 @@
 	import { goto } from '$app/navigation';
 	import { base } from '$app/paths';
 	import { slide } from 'svelte/transition';
+	import { editions } from '$lib';
+
 	import '../app.css';
 
 	let { children } = $props();
+
+	let pastEditions = editions.filter((edition) => edition.year < new Date().getFullYear());
+
+	let editionsMenu: HTMLDetailsElement;
 
 	const MENU = [
 		{ name: 'Home', path: '' },
@@ -27,15 +33,38 @@
 		</div>
 
 		<div class="navbar-end hidden items-center gap-4 md:flex">
-			{#each MENU as { name, path }}
-				<a href="{base}/{path}" class="btn btn-link text-white">
-					{name}
-				</a>
-			{/each}
+			<ul class="menu menu-horizontal">
+				{#each MENU as { name, path }}
+					<li>
+						<a href="{base}/{path}" class="text-white">
+							{name}
+						</a>
+					</li>
+				{/each}
 
-			<a href="https://discord.gg/rq3PGpzgqp" class="btn bg-white text-black hover:bg-gray-400"
-				>Server Discord</a
-			>
+				<li>
+					<details bind:this={editionsMenu}>
+						<summary>Edizioni</summary>
+						<ul class="rounded-t-none bg-base-100 p-2">
+							{#each pastEditions as { year }}
+								<li>
+									<a
+										href="{base}/edition/{year}"
+										class="text-white"
+										onclick={() => (editionsMenu.open = false)}
+									>
+										{year}
+									</a>
+								</li>
+							{/each}
+						</ul>
+					</details>
+				</li>
+			</ul>
+
+			<a href="https://discord.gg/rq3PGpzgqp" class="btn bg-white text-black hover:bg-gray-400">
+				Server Discord
+			</a>
 		</div>
 
 		<div class="navbar-end md:hidden">
@@ -101,8 +130,10 @@
 	</div>
 </div>
 
-<div class="flex h-16 w-full items-center justify-center bg-gray-400 text-black">
-	<span> © Cybercup.IT 2025</span>
+<div class="flex w-full flex-col items-center justify-center gap-4 bg-gray-400 py-4 text-black">
+	<p>Made with ❤️ & SvelteKit </p>
+	<p> Report issues on <a class="link" href="https://github.com/CyberCup/2025.cybercup.it/issues/new"> GitHub </a></p>
+	<p>© Cybercup.IT 2025</p>
 </div>
 
 <style>
