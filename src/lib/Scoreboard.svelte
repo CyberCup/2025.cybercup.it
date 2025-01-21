@@ -43,9 +43,8 @@
 				<td class="text-lg">
 					{#if team.website != null}
 						<a href={team.website} class="link flex items-center">
-							{team.team_name}
-
-							<ExternalLinkIcon />
+							<span>{team.team_name}</span>
+							<ExternalLinkIcon class="ml-1" />
 						</a>
 					{:else}
 						{team.team_name}
