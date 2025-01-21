@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+tr > td:first-child,
+tr > th:first-child {
+    @apply rounded-l-lg;
+}
+
+tr > td:last-child,
+tr > th:last-child {
+    @apply rounded-r-lg;
+}

@@ -18,7 +18,7 @@
 	Riassunto del torneo CyberCup.IT {year}
 </p>
 
-<h3 class="my-8 text-center text-2xl font-bold">Classifica</h3>
+<h3 class="mb-4 text-center text-2xl font-bold">Classifica</h3>
 <Scoreboard {scoreboard} />
 
 <h2 class="my-8 text-center text-2xl font-bold">Calendario CTF</h2>
