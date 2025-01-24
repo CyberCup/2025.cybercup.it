@@ -1,17 +1,16 @@
 <script lang="ts">
-	import { goto } from '$app/navigation';
 	import { base } from '$app/paths';
 	import { slide } from 'svelte/transition';
 	import { editions } from '$lib';
 
-	import MenuIcon from '~icons/custom/menu';
+	import MenuIcon from '~icons/heroicons/bars-3-16-solid';
 	import '../app.css';
 
 	let { children } = $props();
 
 	let pastEditions = editions.filter((edition) => edition.year < new Date().getFullYear());
 
-	let editionsMenu: HTMLDetailsElement;
+	let editionsMenuOpen = $state(false);
 
 	const MENU = [
 		{ name: 'News', path: 'news' },
@@ -24,16 +23,16 @@
 	let mobileMenuOpen = $state(false);
 </script>
 
-<div class="mb-16 w-full bg-primary p-0 px-16">
-	<nav class="navbar m-0 max-h-16 p-0 text-white">
-		<div class="navbar-center flex md:navbar-start">
+<div class="mb-16 w-full p-0">
+	<nav class="navbar m-0 max-h-16 bg-primary p-0 px-16 text-white">
+		<div class="max-md:navbar-center md:navbar-start">
 			<a href="{base}/" class="btn btn-ghost">
 				<img src="{base}/logo.png" alt="CyberCup Logo" class="h-full" />
 				<span class="text-xl font-bold">CyberCup.IT</span>
 			</a>
 		</div>
 
-		<div class="navbar-end hidden items-center gap-4 md:flex">
+		<div class="navbar-center hidden items-center gap-4 md:flex">
 			<ul class="menu menu-horizontal">
 				{#each MENU as { name, path }}
 					<li>
@@ -62,7 +61,9 @@
 					</details>
 				</li>
 			</ul>
+		</div>
 
+		<div class="navbar-env hidden md:block">
 			<a href="https://discord.gg/rq3PGpzgqp" class="btn bg-white text-black hover:bg-gray-400">
 				Server Discord
 			</a>
@@ -70,7 +71,7 @@
 
 		<div class="navbar-end md:hidden">
 			<button
-				class="btn btn-square btn-outline"
+				class="btn btn-square btn-ghost text-2xl text-white"
 				onclick={() => (mobileMenuOpen = !mobileMenuOpen)}
 				aria-label="Menu"
 			>
@@ -80,18 +81,34 @@
 	</nav>
 
 	{#if mobileMenuOpen}
-		<div transition:slide class="mt-4 flex flex-col justify-center text-center" id="mobile-menu">
-			{#each MENU as { name, path }}
-				<button
-					class="btn btn-link block text-white md:hidden"
-					onclick={() => {
-						mobileMenuOpen = false;
-						goto(base + '/' + path);
-					}}
-				>
-					{name}
-				</button>
-			{/each}
+		<div
+			transition:slide
+			class="w-full bg-accent-content pb-8 pt-4 text-accent md:hidden"
+			id="mobile-menu"
+		>
+			<ul class="menu menu-lg">
+				{#each MENU as { name, path }}
+					<li>
+						<a href="{base}/{path}" onclick={() => (mobileMenuOpen = false)}>
+							{name}
+						</a>
+					</li>
+				{/each}
+				<li>
+					<details bind:open={editionsMenuOpen}>
+						<summary>Edizioni</summary>
+						<ul>
+							{#each pastEditions as { year }}
+								<li>
+									<a href="{base}/edition/{year}" onclick={() => (editionsMenuOpen = false)}>
+										{year}
+									</a>
+								</li>
+							{/each}
+						</ul>
+					</details>
+				</li>
+			</ul>
 		</div>
 	{/if}
 </div>

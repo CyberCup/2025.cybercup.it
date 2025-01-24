@@ -12,7 +12,9 @@
 	let orderedScores = $derived(sortScoreboard(scoreboard));
 </script>
 
-<table class="table table-zebra table-pin-rows table-lg border-separate border-spacing-y-2">
+<table
+	class="table table-zebra table-pin-rows table-sm border-separate border-spacing-y-2 md:table-lg"
+>
 	<thead>
 		<tr class="bg-primary text-white">
 			<th></th>
@@ -29,18 +31,18 @@
 			{@const bronze = i === 2}
 			<tr class:gold class:silver class:bronze class="rounded-lg">
 				{#if i < 3}
-					<td class="px-8 text-2xl font-bold">{i + 1}</td>
+					<td class="text-2xl font-bold md:px-8">{i + 1}</td>
 				{:else}
-					<td class="px-8 text-lg font-semibold">{i + 1}</td>
+					<td class="text-lg font-semibold md:px-8">{i + 1}</td>
 				{/if}
 				<td>
 					<img
 						src="{base}/logos/{team.logo}"
-						class="grid aspect-square h-20 items-center justify-center rounded-lg bg-white object-contain p-2"
+						class="max-sm:hidden aspect-square h-20 items-center justify-center rounded-lg bg-white object-contain p-2 sm:grid"
 						alt={team.team_name}
 					/>
 				</td>
-				<td class="text-lg">
+				<td class="md:text-lg">
 					{#if team.website != null}
 						<a href={team.website} class="link flex items-center">
 							<span>{team.team_name}</span>
