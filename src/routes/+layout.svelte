@@ -14,7 +14,7 @@
 	let editionsMenu: HTMLDetailsElement;
 
 	const MENU = [
-		{ name: 'Home', path: '' },
+		{ name: 'News', path: 'news' },
 		{ name: 'Organizzatori', path: 'who' },
 		{ name: 'Calendario', path: 'calendar' },
 		{ name: 'Scoreboard', path: 'scoreboard' },

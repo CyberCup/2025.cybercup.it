@@ -1,0 +1,9 @@
+---
+title: CyberCup 2025
+date: 2025-01-23
+author: Organizzatori CyberCup
+description: Il primo torneo CTF d'Italia torna con la sua quarta edizione. Scopri di più su CyberCup 2025.
+---
+
+CyberCup.IT torna con la sua quarta edizione, CyberCup 2025.
+Il torneo CTF italiano più atteso dell'anno avrà inizio il 18 gennaio con Srdnlen CTF 2025.

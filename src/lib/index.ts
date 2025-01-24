@@ -52,3 +52,11 @@ export const editions: Edition[] = [
 ];
 
 export const currentEdition = editions[0];
+
+export type NewsMetadata = {
+	title: string;
+	author?: string;
+	description?: string;
+	date?: string;
+	draft?: boolean;
+};
