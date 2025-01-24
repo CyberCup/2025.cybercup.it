@@ -51,7 +51,7 @@
 								<li>
 									<a
 										href="{base}/edition/{year}"
-										class="text-white"
+										class="text-base-content"
 										onclick={() => (editionsMenu.open = false)}
 									>
 										{year}

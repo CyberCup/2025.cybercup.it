@@ -57,6 +57,6 @@ export type NewsMetadata = {
 	title: string;
 	author?: string;
 	description?: string;
-	date?: string;
+	date: string;
 	draft?: boolean;
 };
