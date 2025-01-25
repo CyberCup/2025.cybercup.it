@@ -1,4 +1,6 @@
 <script lang="ts">
+	import WarningIcon from '~icons/custom/warning';
+
 	let agreement = $state(false);
 	let timer = $state(10);
 
@@ -15,10 +17,13 @@
 	});
 </script>
 
-<div class="prose mx-auto mt-8">
-	<p class="alert alert-warning">
-		Prima di inoltrare il modulo di iscrizione, devi leggere questa breve informativa e prestare il
-		Tuo consenso al trattamento dei dati che ci fornirai.
+<div class="prose mx-auto">
+	<p
+		class="alert rounded-lg border-2 border-yellow-400/20 bg-yellow-400/20 px-6 py-4 font-semibold text-yellow-400"
+	>
+		<WarningIcon class="mr-2 h-14 w-14" />
+		Prima di inoltrare il modulo di iscrizione, devi leggere questa breve informativa e prestare il Tuo
+		consenso al trattamento dei dati che ci fornirai.
 	</p>
 
 	<h2>
@@ -76,33 +81,37 @@
 
 	<div class="divider"></div>
 
-	<div class="container alert mx-auto">
-		<div>
-			<h3 class="mt-0">Consenso al trattamento dei dati personali</h3>
-			<p class="mb-0">
-				Acconsento al trattamento dei miei dati personali per le finalità indicate nella presente
-				informativa.
-			</p>
-		</div>
+	<div class="container alert mx-auto rounded-lg border-2 border-white/10 bg-white/5 px-6 py-4">
+		{#if !agreement || timer > 0}
+			<div>
+				<h3 class="my-0">Consenso al trattamento dei dati personali</h3>
+				<p class="mb-0">
+					Acconsento al trattamento dei miei dati personali per le finalità indicate nella presente
+					informativa.
+				</p>
+			</div>
 
-		<div class="form-control mx-auto w-max">
-			<label class="label cursor-pointer">
-				<span class="label-text me-4 font-bold">Acconsento</span>
-				<input class="checkbox" type="checkbox" bind:checked={agreement} />
-			</label>
-		</div>
+			<div class="form-control mx-auto ml-4 w-max">
+				<label class="label cursor-pointer">
+					<span class="label-text me-4 font-bold">Acconsento</span>
+					<input class="checkbox" type="checkbox" bind:checked={agreement} />
+				</label>
+			</div>
+		{:else}
+			<div>
+				<h3 class="my-0">Iscriviti tramite il seguente link:</h3>
+				<p class="mb-0">
+					<a href="https://forms.gle/ypchStbQ8JZQmxGEA">Google Forms</a>
+				</p>
+			</div>
+		{/if}
 	</div>
 
-	{#if agreement}
-		{#if timer > 0}
-			<p class="alert alert-warning text-center">
-				Sicuro di aver letto tutto? (Attendi {timer} secondi)
-			</p>
-		{:else}
-			<p class="text-center">
-				Iscriviti tramite il seguente link:
-				<a href="https://forms.gle/ypchStbQ8JZQmxGEA">Google Forms</a>
-			</p>
-		{/if}
+	{#if agreement && timer > 0}
+		<p
+			class="alert rounded-lg border-2 border-yellow-400/20 bg-yellow-400/20 text-center font-semibold text-yellow-400"
+		>
+			Sicuro di aver letto tutto? (Attendi {timer} secondi)
+		</p>
 	{/if}
 </div>

@@ -6,5 +6,5 @@
 	let calendar = $derived(data.calendar);
 </script>
 
-<h2 class="mb-8 text-center text-3xl font-bold">Calendario CTF CyberCup.IT 2025:</h2>
+<h2 class="mb-12 text-center text-3xl font-bold">Calendario CTF CyberCup.IT 2025:</h2>
 <Calendar {calendar} />
