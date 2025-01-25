@@ -25,6 +25,12 @@
 		</tr>
 	</thead>
 	<tbody>
+		{#if orderedScores.length === 0}
+			<tr>
+				<td colspan="5" class="text-center">Nessun punteggio disponibile</td>
+			</tr>
+		{/if}
+		
 		{#each orderedScores as team, i}
 			{@const gold = i === 0}
 			{@const silver = i === 1}
