@@ -17,7 +17,7 @@
 <ul>
 	{#each articles as article}
 		<li>
-			<a class="card bg-base-100 shadow-xl" href="{page.url}/{article.path}">
+			<a class="card border-2 border-primary/10 bg-primary/10 hover:shadow-lg hover:bg-primary/15 transition-colors shadow-xl" href="{page.url}/{article.path}">
 				<div class="card-body">
 					<h2 class="card-title">{article.title}</h2>
 					<p class="text-sm">{article.date ? new Date(article.date).toLocaleDateString() : ''}</p>

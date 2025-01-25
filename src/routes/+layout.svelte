@@ -23,7 +23,7 @@
 	let mobileMenuOpen = $state(false);
 </script>
 
-<div class="mb-16 mt-4 w-full py-0 px-4">
+<div class="mb-16 mt-4 w-full py-0 px-4 z-50">
 	<nav class="navbar max-w-[80rem] rounded-lg shadow-xl relative mx-auto m-0 max-h-16 bg-primary p-0 px-8 text-white">
 		<div class="xl:mx-0 mx-auto">
 			<a href="{base}/" class="btn btn-ghost">
