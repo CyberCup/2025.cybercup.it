@@ -46,7 +46,7 @@
 	</div>
 </div>
 
-<div class="prose mx-auto mt-[90vh] flex flex-col max-w-4xl px-4 gap-y-16">
+<div class="prose mx-auto mt-[90vh] flex flex-col max-w-4xl gap-y-16">
 	<div>
 		<h2 class="mb-4 mt-0 text-center text-5xl font-medium">Come funziona CyberCup?</h2>
 		<p>

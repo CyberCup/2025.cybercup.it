@@ -30,7 +30,7 @@
 		<div class="mx-auto xl:mx-0">
 			<a href="{base}/" class="btn btn-ghost">
 				<img src="{base}/logo.png" alt="CyberCup Logo" class="h-full" />
-				<span class="text-xl font-bold">CyberCup.IT</span>
+				<span class="text-xl font-bold ml-2">CyberCup.IT</span>
 			</a>
 		</div>
 
@@ -113,7 +113,7 @@
 	{/if}
 </div>
 
-<div class="container mx-auto mb-16 mt-32 max-w-[80rem]">
+<div class="container mx-auto mb-16 mt-32 px-4 max-w-[80rem]">
 	{@render children()}
 </div>
 

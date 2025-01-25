@@ -12,58 +12,58 @@
 	let orderedScores = $derived(sortScoreboard(scoreboard));
 </script>
 
-<table
-	class="table table-zebra table-pin-rows table-sm border-separate border-spacing-y-2 md:table-lg"
->
-	<thead>
-		<tr class="bg-primary text-white">
-			<th></th>
-			<th></th>
-			<th>Team</th>
-			<th>Affiliazione</th>
-			<th class="text-center">Punteggio</th>
-		</tr>
-	</thead>
-	<tbody>
-		{#if orderedScores.length === 0}
-			<tr>
-				<td colspan="5" class="text-center">Nessun punteggio disponibile</td>
+<div class="overflow-x-auto">
+	<table
+		class="table table-zebra table-pin-rows table-sm border-separate border-spacing-y-2 md:table-lg"
+	>
+		<thead>
+			<tr class="bg-primary text-white">
+				<th></th>
+				<th>Team</th>
+				<th>Affiliazione</th>
+				<th class="text-center">Punteggio</th>
 			</tr>
-		{/if}
-		
-		{#each orderedScores as team, i}
-			{@const gold = i === 0}
-			{@const silver = i === 1}
-			{@const bronze = i === 2}
-			<tr class:gold class:silver class:bronze class="rounded-lg">
-				{#if i < 3}
-					<td class="text-2xl font-bold md:px-8">{i + 1}</td>
-				{:else}
-					<td class="text-lg font-semibold md:px-8">{i + 1}</td>
-				{/if}
-				<td>
-					<img
-						src="{base}/logos/{team.logo}"
-						class="max-sm:hidden aspect-square h-20 items-center justify-center rounded-lg bg-white object-contain p-2 sm:grid"
-						alt={team.team_name}
-					/>
-				</td>
-				<td class="md:text-lg">
-					{#if team.website != null}
-						<a href={team.website} class="link flex items-center">
-							<span>{team.team_name}</span>
-							<ExternalLinkIcon class="ml-1" />
-						</a>
+		</thead>
+		<tbody>
+			{#if orderedScores.length === 0}
+				<tr>
+					<td colspan="5" class="text-center">Nessun punteggio disponibile</td>
+				</tr>
+			{/if}
+
+			{#each orderedScores as team, i}
+				{@const gold = i === 0}
+				{@const silver = i === 1}
+				{@const bronze = i === 2}
+				<tr class:gold class:silver class:bronze class="rounded-lg">
+					{#if i < 3}
+						<td class="text-2xl font-bold md:px-8">{i + 1}</td>
 					{:else}
-						{team.team_name}
+						<td class="text-lg font-semibold md:px-8">{i + 1}</td>
 					{/if}
-				</td>
-				<td>{team.affiliation}</td>
-				<td class="text-center font-semibold">{team.score}</td>
-			</tr>
-		{/each}
-	</tbody>
-</table>
+					<td class="flex items-center md:text-lg">
+						<img
+							src="{base}/logos/{team.logo}"
+							class="mr-10 aspect-square h-20 items-center justify-center rounded-lg bg-white object-contain p-2 max-sm:hidden sm:grid"
+							alt={team.team_name}
+						/>
+
+						{#if team.website != null}
+							<a href={team.website} class="link flex items-center">
+								<span>{team.team_name}</span>
+								<ExternalLinkIcon class="ml-1" />
+							</a>
+						{:else}
+							{team.team_name}
+						{/if}
+					</td>
+					<td>{team.affiliation}</td>
+					<td class="text-center font-semibold">{team.score}</td>
+				</tr>
+			{/each}
+		</tbody>
+	</table>
+</div>
 
 <style>
 	.gold {
