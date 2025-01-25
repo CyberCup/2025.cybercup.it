@@ -23,16 +23,16 @@
 	let mobileMenuOpen = $state(false);
 </script>
 
-<div class="mb-16 w-full p-0">
-	<nav class="navbar m-0 max-h-16 bg-primary p-0 px-16 text-white">
-		<div class="max-md:navbar-center md:navbar-start">
+<div class="mb-16 mt-4 w-full py-0 px-4">
+	<nav class="navbar max-w-[80rem] rounded-lg shadow-xl relative mx-auto m-0 max-h-16 bg-primary p-0 px-8 text-white">
+		<div class="xl:mx-0 mx-auto">
 			<a href="{base}/" class="btn btn-ghost">
 				<img src="{base}/logo.png" alt="CyberCup Logo" class="h-full" />
 				<span class="text-xl font-bold">CyberCup.IT</span>
 			</a>
 		</div>
 
-		<div class="navbar-center hidden items-center gap-4 md:flex">
+		<div class="ml-auto hidden items-center gap-4 xl:flex">
 			<ul class="menu menu-horizontal">
 				{#each MENU as { name, path }}
 					<li>
@@ -45,7 +45,7 @@
 				<li>
 					<details bind:this={editionsMenu}>
 						<summary>Edizioni</summary>
-						<ul class="rounded-t-none bg-base-100 p-2">
+						<ul class="rounded-t-none p-2">
 							{#each pastEditions as { year }}
 								<li>
 									<a
@@ -63,13 +63,16 @@
 			</ul>
 		</div>
 
-		<div class="navbar-env hidden md:block">
-			<a href="https://discord.gg/rq3PGpzgqp" class="btn bg-white text-black hover:bg-gray-400">
+		<div class="navbar-env hidden xl:block">
+			<a
+				href="https://discord.gg/rq3PGpzgqp"
+				class="button-light"
+			>
 				Server Discord
 			</a>
 		</div>
 
-		<div class="navbar-end md:hidden">
+		<div class="ml-auto xl:hidden absolute right-4">
 			<button
 				class="btn btn-square btn-ghost text-2xl text-white"
 				onclick={() => (mobileMenuOpen = !mobileMenuOpen)}
@@ -83,7 +86,7 @@
 	{#if mobileMenuOpen}
 		<div
 			transition:slide
-			class="w-full bg-accent-content pb-8 pt-4 text-accent md:hidden"
+			class="w-full bg-primary/75 rounded-lg mt-4 shadow-lg p-2 text-white md:hidden"
 			id="mobile-menu"
 		>
 			<ul class="menu menu-lg">
@@ -117,7 +120,7 @@
 	{@render children()}
 </div>
 
-<div class="w-full bg-slate-200 px-16 py-16 text-black">
+<div class="w-full bg-slate-200 px-16 py-16 mt-auto text-black">
 	<div class="container mx-8 grid gap-8 md:mx-auto md:grid-cols-2 md:text-inherit lg:max-w-[80rem]">
 		<div class="mb-8">
 			<h4 class="my-2 text-xl uppercase">Contatti</h4>
