@@ -11,7 +11,7 @@
 
 <h2 class="text-center text-4xl font-bold">
 	CyberCup.IT {year}
-	<img src="{base}/logo.png" alt="CyberCup Logo" class="ms-4 inline-block h-14" />
+	<img src="{base}/logo.png" alt="CyberCup Logo" class="ms-4 lg:inline-block hidden h-14" />
 </h2>
 
 <p class="mb-16 mt-4 text-center text-xl font-light">
