@@ -1,13 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+body {
+	font-family: 'Inter', serif;
+	font-optical-sizing: auto;
+	font-style: normal;
+}
+
 tr > td:first-child,
 tr > th:first-child {
-    @apply rounded-l-lg;
+	@apply rounded-l-lg;
 }
 
 tr > td:last-child,
 tr > th:last-child {
-    @apply rounded-r-lg;
+	@apply rounded-r-lg;
+}
+
+.button-light {
+	@apply rounded-lg border-2 border-white/25 bg-white/20 px-4 py-2 text-sm font-bold text-white transition-colors hover:bg-white/30;
+}
+
+.menu li > details > summary:active,
+.menu li > *:not(ul):not(.menu-title):not(details):active {
+	@apply bg-white/20 text-white;
+}
+
+.menu li > *:not(ul):not(.menu-title):not(details):focus {
+	@apply text-white;
 }
