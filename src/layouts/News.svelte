@@ -14,11 +14,8 @@
 <article class="prose mx-auto">
 	<div>
 		<h1 class="mb-2">{metadata.title}</h1>
-		<p>
-			<span class="font-bold">Pubblicato il </span>
-			{readableDate}
-			<span> da </span>
-			<span class="font-bold">{metadata.author}</span>
+		<p class="mt-0 opacity-80">
+			Pubblicato il  <span class="font-bold">{readableDate}</span> da <span class="font-bold">{metadata.author}</span>
 		</p>
 	</div>
 

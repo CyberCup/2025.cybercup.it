@@ -113,7 +113,7 @@
 	{/if}
 </div>
 
-<div class="container mx-auto mb-16 mt-32 px-4 max-w-[80rem]">
+<div class="container mx-auto mb-16 mt-32 xl:px-0 px-4 max-w-[80rem]">
 	{@render children()}
 </div>
 

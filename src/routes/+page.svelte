@@ -10,7 +10,7 @@
 
 <div class="absolute inset-x-0 top-0 flex h-screen flex-col justify-center text-white">
 	<img
-		src="https://cybercup.it/assets/hall_of_fame_2023_photos/toh.jpg"
+		src="{base}/hero.jpg"
 		alt="Immagine di copertina"
 		class="absolute inset-0 h-full w-full object-cover object-center"
 	/>
