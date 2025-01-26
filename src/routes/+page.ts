@@ -4,6 +4,7 @@ import { rawArticles } from './news/articles';
 export const load: PageLoad = async () => {
 	return {
 		latestArticles: rawArticles
+			.filter((a) => !a.draft)
 			.slice(0, 3)
 			.map((a) => ({
 				...a,
