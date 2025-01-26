@@ -3,6 +3,8 @@ name: 'Build and Deploy to GitHub Pages'
 on:
   push:
     branches: ['main']
+  pull_request:
+    branches: ['main']
 
 concurrency: # Ensure only one workflow is running at a time
   cancel-in-progress: true
@@ -43,6 +45,7 @@ jobs:
 
   deploy:
     needs: build
+    if: github.ref == 'refs/heads/main' && github.event_name == 'push'
 
     permissions:
       pages: write # to deploy to Pages
