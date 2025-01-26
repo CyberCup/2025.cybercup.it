@@ -26,7 +26,9 @@
 	</p>
 
 	<div class="absolute inset-x-0 bottom-8 flex items-center justify-center px-4">
-		<div class="w-full rounded-lg bg-black/20 border-2 border-black/20 p-4 shadow-lg backdrop-blur xl:max-w-xl">
+		<div
+			class="w-full rounded-lg border-2 border-black/20 bg-black/20 p-4 shadow-lg backdrop-blur xl:max-w-xl"
+		>
 			<h2 class="mb-1 text-center text-xl font-semibold opacity-90 xl:text-2xl">Ultime notizie</h2>
 			<Marquee pauseOnHover={true} speed={50} gap={'50px'}>
 				{#each latestArticles as latestArticle}
