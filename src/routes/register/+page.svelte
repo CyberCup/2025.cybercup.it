@@ -19,7 +19,7 @@
 
 <div class="prose mx-auto">
 	<p
-		class="alert rounded-lg border-2 border-yellow-400/20 bg-yellow-400/20 px-6 py-4 font-semibold text-yellow-400"
+		class="alert rounded-lg border-2 border-yellow-500/20 bg-yellow-500/20 px-6 py-4 font-semibold text-yellow-500 dark:border-yellow-400/20 dark:bg-yellow-400/20 dark:text-yellow-400"
 	>
 		<WarningIcon class="mr-2 h-14 w-14" />
 		Prima di inoltrare il modulo di iscrizione, devi leggere questa breve informativa e prestare il Tuo
@@ -81,7 +81,7 @@
 
 	<div class="divider"></div>
 
-	<div class="container alert mx-auto rounded-lg border-2 border-white/10 bg-white/5 px-6 py-4">
+	<div class="container alert mx-auto rounded-lg border-2 dark:border-white/10 dark:bg-white/5 bg-black/5 border-black/10 px-6 py-4">
 		{#if !agreement || timer > 0}
 			<div>
 				<h3 class="my-0">Consenso al trattamento dei dati personali</h3>
@@ -109,7 +109,7 @@
 
 	{#if agreement && timer > 0}
 		<p
-			class="alert rounded-lg border-2 border-yellow-400/20 bg-yellow-400/20 text-center font-semibold text-yellow-400"
+			class="alert rounded-lg border-2 border-yellow-500/20 bg-yellow-500/20 px-6 py-4 font-semibold text-yellow-500 dark:border-yellow-400/20 dark:bg-yellow-400/20 dark:text-yellow-400"
 		>
 			Sicuro di aver letto tutto? (Attendi {timer} secondi)
 		</p>

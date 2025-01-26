@@ -47,15 +47,15 @@
 				<li>
 					<details bind:this={editionsMenu}>
 						<summary>Edizioni</summary>
-						<ul class="rounded-t-none p-2">
+						<ul class="rounded-t-none rounded-b-lg bg-primary transform -translate-y-0.5 -translate-x-8 p-2 min-w-[10rem]">
 							{#each pastEditions as { year }}
 								<li>
 									<a
 										href="{base}/edition/{year}"
-										class="text-base-content"
+										class="w-full"
 										onclick={() => (editionsMenu.open = false)}
 									>
-										{year}
+										Anno {year}
 									</a>
 								</li>
 							{/each}
