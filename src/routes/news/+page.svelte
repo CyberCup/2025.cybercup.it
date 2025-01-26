@@ -6,6 +6,14 @@
 	let { articles: rawArticles } = $derived(data);
 
 	let articles = $derived(rawArticles.filter((article) => article.draft !== true));
+
+	function formatDate(date: string) {
+		return new Date(date).toLocaleDateString('it-IT', {
+			year: 'numeric',
+			month: 'long',
+			day: 'numeric'
+		});
+	}
 </script>
 
 <svelte:head>
@@ -18,21 +26,15 @@
 	{#each articles as article}
 		<li>
 			<a
-				class="card border-2 rounded-lg border-primary/10 bg-primary/10 shadow-xl transition-colors hover:bg-primary/15 hover:shadow-lg"
+				class="card rounded-lg border-2 border-primary/10 bg-primary/10 shadow-xl transition-colors hover:bg-primary/15 hover:shadow-lg"
 				href="{page.url}/{article.path}"
 			>
-				<div class="card-body py-6 px-8">
+				<div class="card-body px-8 py-6">
 					<h2 class="card-title">{article.title}</h2>
 					{article.description}
 
 					<p class="text-sm opacity-80">
-						{article.date
-							? new Date(article.date).toLocaleDateString("it-IT", {
-									year: 'numeric',
-									month: 'long',
-									day: 'numeric'
-								})
-							: ''}
+						{article.date != null ? formatDate(article.date) : ''}
 					</p>
 				</div>
 			</a>

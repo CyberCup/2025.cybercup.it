@@ -24,7 +24,7 @@
 					<td>{event.title}</td>
 					<td class="font-semibold"> {event.ctf ?? 'TBA'} </td>
 					<td> {event.date ?? 'TBA'} </td>
-					<td class="flex lg:flex-row flex-col justify-center lg:space-x-4 lg:space-y-0 space-y-4">
+					<td class="flex flex-col justify-center space-y-4 lg:flex-row lg:space-x-4 lg:space-y-0">
 						<a
 							class="btn btn-secondary"
 							class:btn-disabled={event.website == null}

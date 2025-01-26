@@ -10,6 +10,16 @@
 		scoreboard.toSorted((a, b) => b.score - a.score);
 
 	let orderedScores = $derived(sortScoreboard(scoreboard));
+
+	function posStyle(i: number) {
+		if (i < 3) {
+			return `text-${4 - i}xl font-bold`;
+		} else if (i === 3) {
+			return 'text-xl font-semibold';
+		} else {
+			return 'text-lg font-semibold';
+		}
+	}
 </script>
 
 <div class="overflow-x-auto">
@@ -32,15 +42,17 @@
 			{/if}
 
 			{#each orderedScores as team, i}
-				{@const gold = i === 0}
-				{@const silver = i === 1}
-				{@const bronze = i === 2}
+				{@const pos = i + 1}
+
+				{@const gold = pos === 1}
+				{@const silver = pos === 2}
+				{@const bronze = pos === 3}
+
 				<tr class:gold class:silver class:bronze class="rounded-lg">
-					{#if i < 3}
-						<td class="text-2xl font-bold md:px-8">{i + 1}</td>
-					{:else}
-						<td class="text-lg font-semibold md:px-8">{i + 1}</td>
-					{/if}
+					<td class="{posStyle(pos)} md:px-8">
+						{pos}
+					</td>
+
 					<td class="flex items-center md:text-lg">
 						<img
 							src="{base}/logos/{team.logo}"

@@ -4,6 +4,11 @@
 	import { editions } from '$lib';
 
 	import MenuIcon from '~icons/heroicons/bars-3-16-solid';
+
+	import '@fontsource-variable/inter';
+	import '@fontsource-variable/inter/opsz.css';
+	import '@fontsource-variable/inter/opsz-italic.css';
+
 	import '../app.css';
 
 	let { children } = $props();
@@ -23,14 +28,14 @@
 	let mobileMenuOpen = $state(false);
 </script>
 
-<div class="z-50 absolute inset-x-0 top-0 mb-16 mt-4 w-full px-4 py-0">
+<div class="absolute inset-x-0 top-0 z-50 mb-16 mt-4 w-full px-4 py-0">
 	<nav
 		class="navbar relative m-0 mx-auto max-h-16 max-w-[80rem] rounded-lg bg-primary p-0 px-8 text-white shadow-xl"
 	>
 		<div class="mx-auto xl:mx-0">
 			<a href="{base}/" class="btn btn-ghost">
 				<img src="{base}/logo.png" alt="CyberCup Logo" class="h-full" />
-				<span class="text-xl font-bold ml-2">CyberCup.IT</span>
+				<span class="ml-2 text-xl font-bold">CyberCup.IT</span>
 			</a>
 		</div>
 
@@ -45,15 +50,17 @@
 				{/each}
 
 				<li>
-					<details bind:this={editionsMenu}>
+					<details>
 						<summary>Edizioni</summary>
-						<ul class="rounded-t-none rounded-b-lg bg-primary transform -translate-y-0.5 -translate-x-8 p-2 min-w-[10rem]">
+						<ul
+							class="min-w-[10rem] -translate-x-8 -translate-y-0.5 transform rounded-b-lg rounded-t-none bg-primary p-2"
+						>
 							{#each pastEditions as { year }}
 								<li>
 									<a
 										href="{base}/edition/{year}"
 										class="w-full"
-										onclick={() => (editionsMenu.open = false)}
+										onclick={() => (mobileMenuOpen = false)}
 									>
 										Anno {year}
 									</a>
@@ -83,7 +90,7 @@
 	{#if mobileMenuOpen}
 		<div
 			transition:slide
-			class="mt-4 w-full rounded-lg bg-primary/75 backdrop-blur p-2 text-white shadow-lg md:hidden"
+			class="mt-4 w-full rounded-lg bg-primary/75 p-2 text-white shadow-lg backdrop-blur md:hidden"
 			id="mobile-menu"
 		>
 			<ul class="menu menu-lg">
@@ -113,14 +120,14 @@
 	{/if}
 </div>
 
-<div class="container mx-auto mb-16 mt-32 xl:px-0 px-4 max-w-[80rem]">
+<div class="container mx-auto mb-16 mt-32 max-w-[80rem] px-4 xl:px-0">
 	{@render children()}
 </div>
 
 <div class="mb-4 mt-auto px-4">
 	<div class="mx-auto w-full max-w-[80rem] rounded-lg bg-primary px-12 py-8 text-white shadow-xl">
 		<div class="mb-8 lg:flex">
-			<div class="lg:mr-32 lg:mb-0 mb-8 flex flex-col items-center text-center lg:text-left">
+			<div class="mb-8 flex flex-col items-center text-center lg:mb-0 lg:mr-32 lg:text-left">
 				<p class="flex items-center gap-x-4">
 					<img src="{base}/logo.png" alt="CyberCup Logo" class="h-10" />
 					<span class="text-2xl font-bold">CyberCup.IT</span>
@@ -129,7 +136,7 @@
 			</div>
 
 			<div
-				class="container text-center lg:text-left grid lg:gap-8 gap-4 md:mx-auto md:text-inherit lg:max-w-[80rem] lg:grid-cols-2 xl:grid-cols-3"
+				class="container grid gap-4 text-center md:mx-auto md:text-inherit lg:max-w-[80rem] lg:grid-cols-2 lg:gap-8 lg:text-left xl:grid-cols-3"
 			>
 				<div>
 					<h4 class="my-1 text-lg font-bold">Contatti</h4>
@@ -158,7 +165,9 @@
 			</div>
 		</div>
 
-		<div class="lg:flex text-center lg:text-left justify-between border-t-2 border-white/30 pt-8 text-sm">
+		<div
+			class="justify-between border-t-2 border-white/30 pt-8 text-center text-sm lg:flex lg:text-left"
+		>
 			<p>© {new Date().getFullYear()} Cybercup.IT</p>
 			<p>Made with ❤️ & SvelteKit</p>
 			<p>

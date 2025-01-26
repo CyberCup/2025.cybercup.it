@@ -15,7 +15,8 @@
 	<div>
 		<h1 class="mb-2">{metadata.title}</h1>
 		<p class="mt-0 opacity-80">
-			Pubblicato il  <span class="font-bold">{readableDate}</span> da <span class="font-bold">{metadata.author}</span>
+			Pubblicato il <span class="font-bold">{readableDate}</span> da
+			<span class="font-bold">{metadata.author}</span>
 		</p>
 	</div>
 
