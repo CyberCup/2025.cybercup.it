@@ -1,10 +1,16 @@
 <script lang="ts">
 	import Calendar from '$lib/Calendar.svelte';
-	import type { PageData } from './[year]/$types';
+	import Alert from '$lib/components/Alert.svelte';
+	import type { PageData } from './$types';
 
 	let { data }: { data: PageData } = $props();
 	let calendar = $derived(data.calendar);
 </script>
 
 <h2 class="mb-12 text-center text-3xl font-bold">Calendario CTF CyberCup.IT 2025:</h2>
+
+<Alert class="mx-auto w-max" type="warning">
+	<p>Il calendario è in fase di definizione. Le date potrebbero subire variazioni.</p>
+</Alert>
+
 <Calendar {calendar} />

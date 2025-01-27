@@ -1,4 +1,5 @@
 <script lang="ts">
+	import Alert from '$lib/components/Alert.svelte';
 	import WarningIcon from '~icons/custom/warning';
 
 	let agreement = $state(false);
@@ -18,13 +19,10 @@
 </script>
 
 <div class="prose mx-auto">
-	<p
-		class="alert rounded-lg border-2 border-yellow-500/20 bg-yellow-500/20 px-6 py-4 font-semibold text-yellow-500 dark:border-yellow-400/20 dark:bg-yellow-400/20 dark:text-yellow-400"
-	>
-		<WarningIcon class="mr-2 h-14 w-14" />
-		Prima di inoltrare il modulo di iscrizione, devi leggere questa breve informativa e prestare il Tuo
-		consenso al trattamento dei dati che ci fornirai.
-	</p>
+	<Alert>
+		Prima di inoltrare il modulo di iscrizione devi leggere questa breve informativa e prestare il
+		Tuo consenso al trattamento dei dati che ci fornirai.
+	</Alert>
 
 	<h2>
 		Informativa e consenso relativi al trattamento dei dati personali, art 13 del GDPR, per gli
