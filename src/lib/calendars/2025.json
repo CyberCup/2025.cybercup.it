@@ -1,14 +1,16 @@
 [
 	{
 		"title": "Gennaio 2025 (1° Round)",
-		"ctf": "Srdnlen CTF",
+		"ctf": "Srdnlen CTF 2025",
 		"date": "Inizio: 18 Gennaio 2025, 19:00 CET - Fine: 19 Gennaio 2025, 19:00 CEST",
 		"website": "https://ctf.srdnlen.it/",
 		"ctftime": "2576"
 	},
 	{
 		"title": "Febbraio 2025 (2° Round)",
-		"ctf": "TheRomanXpl0it CTF"
+		"ctf": "TheRomanXpl0it CTF",
+		"date": "Inizio: 22 febbraio 2025, 14:00 CET - Fine: 23 febbraio 2025, 14:00 CET",
+		"website": "https://ctf.theromanxpl0.it/"
 	},
 	{
 		"title": "Marzo 2025 (3° Round)"
