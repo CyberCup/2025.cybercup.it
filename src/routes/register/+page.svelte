@@ -18,6 +18,11 @@
 	});
 </script>
 
+<svelte:head>
+	<title>Iscriviti | CyberCup.IT</title>
+	<meta name="description" content="Iscriviti al progetto CyberCup.IT" />
+</svelte:head>
+
 <div class="prose mx-auto">
 	<Alert>
 		Prima di inoltrare il modulo di iscrizione devi leggere questa breve informativa e prestare il

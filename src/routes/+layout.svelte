@@ -28,6 +28,13 @@
 	let mobileMenuOpen = $state(false);
 </script>
 
+<svelte:head>
+	<title>CyberCup.IT</title>
+	<meta name="description" content="Il primo torneo italiano di Capture The Flag" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<meta name="theme-color" content="#1F2937" />
+</svelte:head>
+
 <div class="absolute inset-x-0 top-0 z-50 mb-16 mt-4 w-full px-4 py-0">
 	<nav
 		class="navbar relative m-0 mx-auto max-h-16 max-w-[80rem] rounded-lg bg-primary p-0 px-8 text-white shadow-xl"
