@@ -17,6 +17,8 @@
 </script>
 
 <svelte:head>
+	<title>News | CyberCup.IT</title>
+	<meta name="description" content="Ultime notizie sul torneo di Capture The Flag CyberCup.IT" />
 	<link rel="alternate" type="application/rss+xml" title="RSS Feed" href="{page.url}/rss.xml" />
 </svelte:head>
 

@@ -7,6 +7,11 @@
 	let calendar = $derived(data.calendar);
 </script>
 
+<svelte:head>
+	<title>Calendario | CyberCup.IT</title>
+	<meta name="description" content="Calendario delle gare di CyberCup.IT" />
+</svelte:head>
+
 <h2 class="mb-12 text-center text-3xl font-bold">Calendario CTF CyberCup.IT 2025:</h2>
 
 <Alert class="mx-auto w-max" type="warning">

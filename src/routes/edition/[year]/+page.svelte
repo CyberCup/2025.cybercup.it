@@ -9,6 +9,11 @@
 	let { calendar, scoreboard, year } = $derived(edition);
 </script>
 
+<svelte:head>
+	<title>CyberCup.IT {year}</title>
+	<meta name="description" content="Riassunto del torneo CyberCup.IT {year}" />
+</svelte:head>
+
 <h2 class="text-center text-4xl font-bold">
 	CyberCup.IT {year}
 	<img src="{base}/logo.png" alt="CyberCup Logo" class="ms-4 hidden h-14 lg:inline-block" />

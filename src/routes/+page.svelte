@@ -8,6 +8,11 @@
 	import Marquee from 'svelte-fast-marquee';
 </script>
 
+<svelte:head>
+	<title>CyberCup.IT</title>
+	<meta name="description" content="Il primo torneo italiano di Capture The Flag" />
+</svelte:head>
+
 <div class="absolute inset-x-0 top-0 flex h-screen flex-col justify-center text-white">
 	<img
 		src="{base}/hero.jpg"
