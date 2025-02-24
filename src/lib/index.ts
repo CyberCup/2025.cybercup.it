@@ -4,6 +4,7 @@ export type Scoreboard = {
 	score: number;
 	logo: string;
 	website?: string;
+	junior?: boolean;
 }[];
 
 export type Calendar = {
