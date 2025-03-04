@@ -14,7 +14,7 @@
 
 <h2 class="mb-6 text-center text-3xl font-bold">Calendario CTF CyberCup.IT 2025:</h2>
 
-<Alert class="mx-auto max-w-max mb-6" type="warning">
+<Alert class="mx-auto mb-6 max-w-max" type="warning">
 	<p>Il calendario è in fase di definizione. Le date potrebbero subire variazioni.</p>
 </Alert>
 
