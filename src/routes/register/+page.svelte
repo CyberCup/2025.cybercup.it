@@ -85,7 +85,7 @@
 	<div class="divider"></div>
 
 	<div
-		class="container alert mx-auto rounded-lg border-2 border-black/10 bg-black/5 px-6 py-4 dark:border-white/10 dark:bg-white/5"
+		class="alert container mx-auto rounded-lg border-2 border-black/10 bg-black/5 px-6 py-4 dark:border-white/10 dark:bg-white/5"
 	>
 		{#if !agreement || timer > 0}
 			<div>

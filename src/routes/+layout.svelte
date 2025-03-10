@@ -35,12 +35,12 @@
 	<meta name="theme-color" content="#1F2937" />
 </svelte:head>
 
-<div class="absolute inset-x-0 top-0 z-50 mb-16 mt-4 w-full px-4 py-0">
+<div class="absolute inset-x-0 top-0 z-50 mt-4 mb-16 w-full px-4 py-0">
 	<nav
-		class="navbar relative m-0 mx-auto max-h-16 max-w-[80rem] rounded-lg bg-primary p-0 px-8 text-white shadow-xl"
+		class="navbar bg-primary relative m-0 mx-auto max-h-16 max-w-[80rem] rounded-lg p-0 px-8 text-white shadow-xl"
 	>
 		<div class="mx-auto xl:mx-0">
-			<a href="{base}/" class="btn btn-ghost">
+			<a href="{base}/" class="flex h-10 items-center gap-2">
 				<img src="{base}/logo.png" alt="CyberCup Logo" class="h-full" />
 				<span class="ml-2 text-xl font-bold">CyberCup.IT</span>
 			</a>
@@ -60,7 +60,7 @@
 					<details>
 						<summary>Edizioni</summary>
 						<ul
-							class="min-w-[10rem] -translate-x-8 -translate-y-0.5 transform rounded-b-lg rounded-t-none bg-primary p-2"
+							class="bg-primary min-w-[10rem] -translate-x-8 -translate-y-0.5 transform rounded-t-none rounded-b-lg p-2"
 						>
 							{#each pastEditions as { year }}
 								<li>
@@ -94,47 +94,52 @@
 		</div>
 	</nav>
 
-	{#if mobileMenuOpen}
-		<div
-			transition:slide
-			class="mt-4 w-full rounded-lg bg-primary/75 p-2 text-white shadow-lg backdrop-blur md:hidden"
-			id="mobile-menu"
-		>
-			<ul class="menu menu-lg">
-				{#each MENU as { name, path }}
-					<li>
-						<a href="{base}/{path}" onclick={() => (mobileMenuOpen = false)}>
-							{name}
-						</a>
-					</li>
-				{/each}
+	<div
+		transition:slide
+		class="bg-primary/75 mt-4 w-full rounded-lg p-2 text-white shadow-lg backdrop-blur-sm xl:hidden"
+		id="mobile-menu"
+		hidden={!mobileMenuOpen}
+	>
+		<ul class="menu menu-lg w-full">
+			{#each MENU as { name, path }}
 				<li>
-					<details bind:open={editionsMenuOpen}>
-						<summary>Edizioni</summary>
-						<ul>
-							{#each pastEditions as { year }}
-								<li>
-									<a href="{base}/edition/{year}" onclick={() => (editionsMenuOpen = false)}>
-										{year}
-									</a>
-								</li>
-							{/each}
-						</ul>
-					</details>
+					<a href="{base}/{path}" onclick={() => (mobileMenuOpen = false)}>
+						{name}
+					</a>
 				</li>
-			</ul>
-		</div>
-	{/if}
+			{/each}
+			<li>
+				<details bind:open={editionsMenuOpen}>
+					<summary>Edizioni</summary>
+					<ul>
+						{#each pastEditions as { year }}
+							<li>
+								<a
+									href="{base}/edition/{year}"
+									onclick={() => {
+										editionsMenuOpen = false;
+										mobileMenuOpen = false;
+									}}
+								>
+									{year}
+								</a>
+							</li>
+						{/each}
+					</ul>
+				</details>
+			</li>
+		</ul>
+	</div>
 </div>
 
-<div class="container mx-auto mb-16 mt-32 max-w-[80rem] px-4 xl:px-0">
+<div class="container mx-auto mt-32 mb-16 max-w-[80rem] px-4 xl:px-0">
 	{@render children()}
 </div>
 
-<div class="mb-4 mt-auto px-4">
-	<div class="mx-auto w-full max-w-[80rem] rounded-lg bg-primary px-12 py-8 text-white shadow-xl">
+<div class="mt-auto mb-4 px-4">
+	<div class="bg-primary mx-auto w-full max-w-[80rem] rounded-lg px-12 py-8 text-white shadow-xl">
 		<div class="mb-8 lg:flex">
-			<div class="mb-8 flex flex-col items-center text-center lg:mb-0 lg:mr-32 lg:text-left">
+			<div class="mb-8 flex flex-col items-center text-center lg:mr-32 lg:mb-0 lg:text-left">
 				<p class="flex items-center gap-x-4">
 					<img src="{base}/logo.png" alt="CyberCup Logo" class="h-10" />
 					<span class="text-2xl font-bold">CyberCup.IT</span>

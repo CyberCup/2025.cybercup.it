@@ -1,6 +1,23 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import 'tailwindcss';
+
+@plugin "daisyui";
+@plugin "@tailwindcss/typography";
+
+@plugin "daisyui/theme" {
+	name: 'emerald';
+	default: true;
+
+	--color-primary: 'rgb(13, 110, 253)';
+	--color-accent: '#fdcb00';
+}
+
+@plugin "daisyui/theme" {
+	name: 'night';
+	prefersdark: true;
+
+	--color-primary: 'rgb(13, 110, 253)';
+	--color-accent: '#fdcb00';
+}
 
 body {
 	font-family: 'Inter Variable', serif;

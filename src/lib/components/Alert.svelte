@@ -22,8 +22,19 @@
 </div>
 
 <style lang="postcss">
-	.alert-warning {
-		@apply border-yellow-500/20 bg-yellow-500/20;
-		@apply text-yellow-500 dark:border-yellow-400/20 dark:bg-yellow-400/20 dark:text-yellow-400;
+	@layer components {
+		.alert-warning {
+			border-color: var(--color-yellow-500);
+			background-color: var(--color-yellow-500);
+			color: var(--color-yellow-500);
+		}
+
+		@media screen and (prefers-color-scheme: dark) {
+			.alert-warning {
+				border-color: var(--color-yellow-400);
+				background-color: var(--color-yellow-400);
+				color: var(--color-yellow-400);
+			}
+		}
 	}
 </style>

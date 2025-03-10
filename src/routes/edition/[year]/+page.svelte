@@ -23,13 +23,13 @@
 	Riassunto del torneo CyberCup.IT {year}
 </p>
 
-<h3 class="mb-6 mt-12 text-center text-2xl font-bold">Classifica</h3>
+<h3 class="mt-12 mb-6 text-center text-2xl font-bold">Classifica</h3>
 <Scoreboard {scoreboard} />
 
-<h2 class="mb-6 mt-12 text-center text-2xl font-bold">Calendario CTF</h2>
+<h2 class="mt-12 mb-6 text-center text-2xl font-bold">Calendario CTF</h2>
 <Calendar {calendar} />
 
-<h2 class="mb-6 mt-12 text-center text-2xl font-bold">Altre edizioni CyberCup.IT:</h2>
+<h2 class="mt-12 mb-6 text-center text-2xl font-bold">Altre edizioni CyberCup.IT:</h2>
 <ul class="mx-auto max-w-xl list-none justify-center space-y-4">
 	{#each years.filter((y) => y != year) as y}
 		<li>
