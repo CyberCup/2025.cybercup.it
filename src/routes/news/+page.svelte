@@ -28,7 +28,7 @@
 	{#each articles as article}
 		<li>
 			<a
-				class="card rounded-lg border-2 border-primary/10 bg-primary/10 shadow-xl transition-colors hover:bg-primary/15 hover:shadow-lg"
+				class="card border-primary/10 bg-primary/10 hover:bg-primary/15 rounded-lg border-2 shadow-xl transition-colors hover:shadow-lg"
 				href="{page.url}/{article.path}"
 			>
 				<div class="card-body px-8 py-6">

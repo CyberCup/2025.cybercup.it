@@ -23,7 +23,7 @@
 
 	<p class="z-10 mx-auto flex items-center px-4 text-center text-4xl font-bold xl:text-6xl">
 		CyberCup.IT 2025
-		<img src="{base}/logo.png" alt="CyberCup Logo" class="ml-10 ms-4 hidden h-20 xl:inline-block" />
+		<img src="{base}/logo.png" alt="CyberCup Logo" class="ms-4 ml-10 hidden h-20 xl:inline-block" />
 	</p>
 
 	<p class="z-10 mt-2 px-4 text-center text-2xl font-light xl:mt-4 xl:text-4xl">
@@ -32,7 +32,7 @@
 
 	<div class="absolute inset-x-0 bottom-8 flex items-center justify-center px-4">
 		<div
-			class="w-full rounded-lg border-2 border-black/20 bg-black/20 p-4 shadow-lg backdrop-blur xl:max-w-xl"
+			class="w-full rounded-lg border-2 border-black/20 bg-black/20 p-4 shadow-lg backdrop-blur-sm xl:max-w-xl"
 		>
 			<h2 class="mb-1 text-center text-xl font-semibold opacity-90 xl:text-2xl">Ultime notizie</h2>
 			<Marquee pauseOnHover={true} speed={50} gap={'50px'}>
@@ -53,7 +53,7 @@
 
 <div class="prose mx-auto mt-[95vh] flex max-w-4xl flex-col gap-y-16">
 	<div>
-		<h2 class="mb-6 mt-0 text-center text-5xl font-medium">Come funziona CyberCup?</h2>
+		<h2 class="mt-0 mb-6 text-center text-5xl font-medium">Come funziona CyberCup?</h2>
 		<p>
 			Il programma consiste in un torneo <b>Capture The Flag</b>, costituito da vari eventi
 			organizzati da team italiani. Al torneo potranno partecipare <b>tutte le squadre</b> (senza limiti
@@ -65,7 +65,7 @@
 	</div>
 
 	<div>
-		<h2 class="mb-6 mt-0 text-center text-5xl font-medium">Struttura del torneo</h2>
+		<h2 class="mt-0 mb-6 text-center text-5xl font-medium">Struttura del torneo</h2>
 
 		<p>
 			CyberCup inizia a <b>Gennaio 2025</b> e termina a <b>Giugno 2025</b>. Verrà svolta
@@ -93,7 +93,7 @@
 	</div>
 
 	<div>
-		<h2 class="mb-6 mt-0 text-center text-5xl font-medium">Punteggio</h2>
+		<h2 class="mt-0 mb-6 text-center text-5xl font-medium">Punteggio</h2>
 		<p>I punteggi saranno calcolati <b>basandosi sulla posizione nella classifica globale</b></p>
 		<p>
 			Viene assegnato un gettone di presenza (<i>1 punto</i>) per la semplice presenza alla gara
@@ -119,7 +119,7 @@
 	</div>
 
 	<div>
-		<h3 class="mb-6 mt-0 text-center text-5xl font-medium">Peso delle competizioni</h3>
+		<h3 class="mt-0 mb-6 text-center text-5xl font-medium">Peso delle competizioni</h3>
 		<p>
 			Il peso delle competizioni <b>sarà determinato in base al numero di team iscritti</b>. Se il
 			numero di partecipanti che hanno preso almeno la challenge di benvenuto è inferiore al numero

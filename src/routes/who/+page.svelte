@@ -9,7 +9,7 @@
 
 <h2 class="mb-12 text-center text-3xl font-bold">Comitato Organizzatore CyberCup.IT 2025:</h2>
 <table
-	class="table table-zebra table-pin-rows table-sm border-separate border-spacing-y-2 md:table-lg"
+	class="table-zebra table-pin-rows table-sm md:table-lg table border-separate border-spacing-y-2"
 >
 	<thead>
 		<tr class="bg-primary text-white">

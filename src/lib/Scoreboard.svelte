@@ -24,7 +24,7 @@
 
 <div class="overflow-x-auto">
 	<table
-		class="table table-zebra table-pin-rows table-sm border-separate border-spacing-y-2 md:table-lg"
+		class="table-zebra table-pin-rows table-sm md:table-lg table border-separate border-spacing-y-2"
 	>
 		<thead>
 			<tr class="bg-primary text-white">
