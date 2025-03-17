@@ -1,138 +1,146 @@
 [
-	{
-		"id": "150337",
-		"team_name": "K!nd4SUS",
-		"affiliation": "Università degli studi di Milano La Statale",
-		"score": 28.0,
-		"logo": "k1nd4SUS.png",
-		"junior": false
-	},
-	{
-		"id": "117538",
-		"team_name": "fibonhack",
-		"affiliation": "",
-		"score": 36.5,
-		"logo": "fibonhack.png",
-		"junior": false
-	},
-	{
-		"id": "46516",
-		"team_name": "TRX",
-		"affiliation": "Sapienza Università di Roma",
-		"score": 44.0,
-		"logo": "trx.png",
-		"junior": false
-	},
-	{
-		"id": "362432",
-		"team_name": "hAOckers",
-		"affiliation": "Universita' degli studi di Roma Tor Vergata",
-		"score": 15,
-		"logo": "haoackers.jpg",
-		"junior": false
-	},
-	{
-		"id": "71738",
-		"team_name": "Ulisse",
-		"affiliation": "Università di Bologna",
-		"score": 15.2,
-		"logo": "ulisse.png",
-		"junior": false
-	},
-	{
-		"id": "308814",
-		"team_name": "napwnli",
-		"affiliation": "Università degli Studi di Napoli Federico II",
-		"score": 25.67,
-		"logo": "napwnli.png",
-		"junior": true
-	},
-	{
-		"id": "230457",
-		"team_name": "Pwnlentoni",
-		"affiliation": "",
-		"score": 28.67,
-		"logo": "pwnlentoni.png",
-		"junior": false
-	},
-	{
-		"id": "309819",
-		"team_name": "ByteTheCookies",
-		"affiliation": "Universita degli studi di salerno",
-		"score": 15.4,
-		"logo": "bytethecookies.png",
-		"junior": true
-	},
-	{
-		"id": "225699",
-		"team_name": "PWNC4M",
-		"affiliation": "Università di Camerino",
-		"score": 15,
-		"logo": "pwnc4m.png",
-		"junior": false
-	},
-	{
-		"id": "251530",
-		"team_name": "aetruria",
-		"affiliation": "Università di Parma, Università di Brescia, Università di Modena e Reggio Emilia",
-		"score": 33.0,
-		"logo": "aetruria.png",
-		"junior": false
-	},
-	{
-		"id": "300",
-		"team_name": "Tower of Hanoi",
-		"affiliation": "Politecnico di Milano",
-		"score": 42.0,
-		"logo": "toh.png",
-		"junior": false
-	},
-	{
-		"id": "271934",
-		"team_name": "Spwnzati",
-		"affiliation": "Spwnzati",
-		"score": 15.0,
-		"logo": "Spwnzati.png",
-		"junior": false
-	},
-	{
-		"id": "83421",
-		"team_name": "Srdnlen",
-		"affiliation": "Università degli studi di Cagliari",
-		"score": 47.46,
-		"logo": "srdnlen.png",
-		"junior": false
-	},
-	{
-		"id": "368768",
-		"team_name": "CyberKnoedel",
-		"affiliation": "Università di Bolzano + Università di Trento",
-		"score": 15.6,
-		"logo": "cyberknodel.jpg",
-		"junior": true
-	},
-	{
-		"id": "114509",
-		"team_name": "MadrHacks",
-		"affiliation": "Università degli studi di Udine",
-		"score": 19.8,
-		"logo": "madrhacks.png",
-		"junior": false
-	},
-	{
-		"id": "235000",
-		"team_name": "42RomaLuiss",
-		"affiliation": "42Roma",
-		"score": 0,
-		"logo": "42RomaLuiss.png",
-		"junior": false
-	},
-	{
-		"id": "229139",
-		"team_name": "FoocHackz",
-		"affiliation": "Università degli Studi di Bari Aldo Moro / Politecnico di Bari",
-		"score": 24.4,
-		"logo": "FoocHackz.png",
-		"junior": false
-	}
+  {
+    "id": "150337",
+    "team_name": "K!nd4SUS",
+    "affiliation": "Università degli studi di Milano La Statale",
+    "score": 58.67,
+    "logo": "k1nd4SUS.png",
+    "junior": false
+  },
+  {
+    "id": "117538",
+    "team_name": "fibonhack",
+    "affiliation": "",
+    "score": 68.83,
+    "logo": "fibonhack.png",
+    "junior": false
+  },
+  {
+    "id": "46516",
+    "team_name": "TRX",
+    "affiliation": "Sapienza Università di Roma",
+    "score": 92.27,
+    "logo": "trx.png",
+    "junior": false
+  },
+  {
+    "id": "362432",
+    "team_name": "hAOckers",
+    "affiliation": "Universita' degli studi di Roma Tor Vergata",
+    "score": 30,
+    "logo": "haoackers.jpg",
+    "junior": false
+  },
+  {
+    "id": "71738",
+    "team_name": "Ulisse",
+    "affiliation": "Università di Bologna",
+    "score": 41.2,
+    "logo": "ulisse.png",
+    "junior": false
+  },
+  {
+    "id": "308814",
+    "team_name": "napwnli",
+    "affiliation": "Università degli Studi di Napoli Federico II",
+    "score": 58.34,
+    "logo": "napwnli.png",
+    "junior": true
+  },
+  {
+    "id": "230457",
+    "team_name": "Pwnlentoni",
+    "affiliation": "",
+    "score": 64.67,
+    "logo": "pwnlentoni.png",
+    "junior": false
+  },
+  {
+    "id": "309819",
+    "team_name": "ByteTheCookies",
+    "affiliation": "Universita degli studi di salerno",
+    "score": 39.0,
+    "logo": "bytethecookies.png",
+    "junior": true
+  },
+  {
+    "id": "225699",
+    "team_name": "PWNC4M",
+    "affiliation": "Università di Camerino",
+    "score": 33.8,
+    "logo": "pwnc4m.png",
+    "junior": false
+  },
+  {
+    "id": "251530",
+    "team_name": "aetruria",
+    "affiliation": "Università di Parma, Università di Brescia, Università di Modena e Reggio Emilia",
+    "score": 66.67,
+    "logo": "aetruria.png",
+    "junior": false
+  },
+  {
+    "id": "300",
+    "team_name": "Tower of Hanoi",
+    "affiliation": "Politecnico di Milano",
+    "score": 84.0,
+    "logo": "toh.png",
+    "junior": false
+  },
+  {
+    "id": "271934",
+    "team_name": "Spwnzati",
+    "affiliation": "",
+    "score": 15.0,
+    "logo": "Spwnzati.png",
+    "junior": false
+  },
+  {
+    "id": "83421",
+    "team_name": "Srdnlen",
+    "affiliation": "Università degli studi di Cagliari",
+    "score": 93.71,
+    "logo": "srdnlen.png",
+    "junior": false
+  },
+  {
+    "id": "368768",
+    "team_name": "CyberKnoedel",
+    "affiliation": "Università di Bolzano + Università di Trento",
+    "score": 30.6,
+    "logo": "cyberknodel.jpg",
+    "junior": true
+  },
+  {
+    "id": "114509",
+    "team_name": "MadrHacks",
+    "affiliation": "Università degli studi di Udine",
+    "score": 59.8,
+    "logo": "madrhacks.png",
+    "junior": false
+  },
+  {
+    "id": "235000",
+    "team_name": "42RomaLuiss",
+    "affiliation": "42Roma",
+    "score": 24.6,
+    "logo": "42RomaLuiss.png",
+    "junior": false
+  },
+  {
+    "id": "229139",
+    "team_name": "FoocHackz",
+    "affiliation": "Università degli Studi di Bari Aldo Moro / Politecnico di Bari",
+    "score": 42.6,
+    "logo": "FoocHackz.png",
+    "junior": false
+  },
+  {
+    "id": "194130",
+    "team_name": "bhackari",
+    "affiliation": "Università Ca' Foscari di Venezia",
+    "score": 20.0,
+    "logo": "bhackari.jpg",
+    "junior": true
+  }
 ]
