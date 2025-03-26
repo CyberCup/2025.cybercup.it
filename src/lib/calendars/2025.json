@@ -23,7 +23,9 @@
 	{
 		"title": "Aprile 2025 (4° Round)",
 		"ctf": "Ulisse CTF",
-		"url": "https://2025.ulis.se/"
+		"website": "https://2025.ulis.se/",
+		"date": "Inizio: 5 aprile 2025, 19:00 CEST - Fine: 6 aprile 2025, 19:00 CEST",
+		"ctftime": "2735"
 	},
 	{
 		"title": "Maggio 2025 (5° Round)"
