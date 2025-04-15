@@ -1,38 +1,36 @@
-# sv
+# CyberCup.IT - Website
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
-
-## Creating a project
-
-If you're seeing this, you've probably already done this step. Congrats!
-
-```bash
-# create a new project in the current directory
-npx sv create
-
-# create a new project in my-app
-npx sv create my-app
-```
+This is the official website of CyberCup.IT, a cybersecurity competition for CTF teams in Italy.
 
 ## Developing
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+This project is built with [SvelteKit](https://kit.svelte.dev) and uses [Tailwind CSS](https://tailwindcss.com/) and DaisyUI for styling.
+
+Download the project and install dependencies:
 
 ```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
+# clone the repository
+git clone <repo_url>
+cd <repo_name>
+pnpm install
 ```
 
-## Building
-
-To create a production version of your app:
+To start a development server, run:
 
 ```bash
-npm run build
+pnpm dev
+```
+
+To build the project for production, run:
+
+```bash
+pnpm build
 ```
 
 You can preview the production build with `npm run preview`.
 
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+## Deployment
+
+We deploy to GitHub pages via GitHub Actions.
+
+The deployment is triggered on every push to the `main` branch via the `.github/workflows/ghpages.yml` workflow.
