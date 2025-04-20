@@ -21,18 +21,26 @@
 	/>
 	<div class="absolute inset-0 bg-black/60"></div>
 
-	<p class="z-10 mx-auto flex items-center px-4 text-center text-4xl font-bold xl:text-6xl">
-		CyberCup.IT 2025
-		<img src="{base}/logo.png" alt="CyberCup Logo" class="ms-4 ml-10 hidden h-20 xl:inline-block" />
-	</p>
+	<div
+		class="z-10 mx-8 flex flex-col items-center rounded-lg border-2 border-black/20 bg-black/5 p-4 backdrop-blur-sm md:mx-auto"
+	>
+		<p class="flex items-center text-center text-4xl font-bold xl:text-6xl">
+			CyberCup.IT 2025
+			<img
+				src="{base}/logo.png"
+				alt="CyberCup Logo"
+				class="ms-4 ml-10 hidden h-20 xl:inline-block"
+			/>
+		</p>
 
-	<p class="z-10 mt-2 px-4 text-center text-2xl font-light xl:mt-4 xl:text-4xl">
-		Il primo torneo italiano di Capture The Flag
-	</p>
+		<p class="mt-2 text-center text-2xl font-light xl:mt-4 xl:text-4xl">
+			Il primo torneo italiano di <strong class="whitespace-nowrap"> Capture The Flag </strong>
+		</p>
+	</div>
 
 	<div class="absolute inset-x-0 bottom-8 flex items-center justify-center px-4">
 		<div
-			class="w-full rounded-lg border-2 border-black/20 bg-black/20 p-4 shadow-lg backdrop-blur-sm xl:max-w-xl"
+			class="w-full rounded-lg border-2 border-black/20 bg-black/20 p-4 shadow-lg backdrop-blur-sm md:max-w-xl"
 		>
 			<h2 class="mb-1 text-center text-xl font-semibold opacity-90 xl:text-2xl">Ultime notizie</h2>
 			<Marquee pauseOnHover={true} speed={50} gap={'50px'}>
@@ -51,7 +59,7 @@
 	</div>
 </div>
 
-<div class="prose mx-auto mt-[95vh] flex max-w-4xl flex-col gap-y-16">
+<div class="prose mx-8 mt-[95vh] flex max-w-4xl flex-col gap-y-16 lg:mx-auto">
 	<div>
 		<h2 class="mt-0 mb-6 text-center text-5xl font-medium">Come funziona CyberCup?</h2>
 		<p>
