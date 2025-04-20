@@ -178,7 +178,7 @@
 		</div>
 
 		<div
-			class="justify-between border-t-2 border-white/30 pt-8 text-center text-sm lg:flex lg:text-left"
+			class="justify-between space-y-2 border-t-2 border-white/30 pt-8 text-center text-sm lg:flex lg:text-left"
 		>
 			<p>© {new Date().getFullYear()} Cybercup.IT</p>
 			<p>Made with ❤️ & SvelteKit</p>
