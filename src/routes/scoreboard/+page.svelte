@@ -11,8 +11,7 @@
 </svelte:head>
 
 <h2 class="mb-12 text-center text-3xl font-bold">Classifica CyberCup.IT {data.year}:</h2>
-<Scoreboard scoreboard={data.scoreboard.filter(d => !d.junior)} />
-
+<Scoreboard scoreboard={data.scoreboard.filter((d) => !d.junior)} />
 
 <h2 class="my-12 text-center text-3xl font-bold">Classifica Junior CyberCup.IT {data.year}:</h2>
-<Scoreboard scoreboard={data.scoreboard.filter(d => d.junior)} />
+<Scoreboard scoreboard={data.scoreboard.filter((d) => d.junior)} />
