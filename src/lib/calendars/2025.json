@@ -28,9 +28,10 @@
 		"ctftime": "2735"
 	},
 	{
-		"title": "Maggio 2025 (5° Round)"
-	},
-	{
-		"title": "Giugno 2025 (6° Round)"
+		"title": "Giugno 2025 (5° Round)",
+		"ctf": "cornCTF",
+		"website": "https://cornc.tf/",
+		"date": "Inizio: 21 giugno 2025, 14:00 CEST — Fine: 22 giugno 2025, 14:00 CEST",
+		"ctftime": "2762"
 	}
 ]
