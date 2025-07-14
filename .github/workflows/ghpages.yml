@@ -13,6 +13,8 @@ concurrency: # Ensure only one workflow is running at a time
 jobs:
   build:
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
 
     steps:
       - name: Checkout
