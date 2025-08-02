@@ -1,6 +1,5 @@
 <script lang="ts">
 	import Calendar from '$lib/Calendar.svelte';
-	import Alert from '$lib/components/Alert.svelte';
 	import type { PageData } from './$types';
 
 	let { data }: { data: PageData } = $props();
@@ -13,9 +12,5 @@
 </svelte:head>
 
 <h2 class="mb-6 text-center text-3xl font-bold">Calendario CTF CyberCup.IT 2025:</h2>
-
-<Alert class="mx-auto mb-6 max-w-max" type="warning">
-	<p>Il calendario è in fase di definizione. Le date potrebbero subire variazioni.</p>
-</Alert>
 
 <Calendar {calendar} />
