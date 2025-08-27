@@ -7,7 +7,11 @@
 		"onlyBuiltDependencies": [
 			"@tailwindcss/oxide",
 			"esbuild"
-		]
+		],
+		"overrides": {
+			"cookie@<0.7.0": ">=0.7.0",
+			"devalue@<5.3.2": ">=5.3.2"
+		}
 	},
 	"scripts": {
 		"dev": "vite dev",
