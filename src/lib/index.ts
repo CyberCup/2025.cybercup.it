@@ -26,12 +26,20 @@ export type Edition = {
 import calendar2024 from './calendars/2024.json';
 import calendar2023 from './calendars/2023.json';
 import calendar2025 from './calendars/2025.json';
+import calendar2026 from './calendars/2026.json';
 
 import scoreboard2023 from './scoreboards/2023.json';
 import scoreboard2024 from './scoreboards/2024.json';
 import scoreboard2025 from './scoreboards/2025.json';
+import scoreboard2026 from './scoreboards/2026.json';
 
 export const editions: Edition[] = [
+	{
+		year: 2026,
+		edition: 4,
+		scoreboard: scoreboard2026,
+		calendar: calendar2026
+	},
 	{
 		year: 2025,
 		edition: 3,
