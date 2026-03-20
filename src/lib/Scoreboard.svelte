@@ -41,7 +41,7 @@
 				</tr>
 			{/if}
 
-			{#each orderedScores as team, i}
+			{#each orderedScores as team, i (team.team_name)}
 				{@const pos = i + 1}
 
 				{@const gold = pos === 1}
