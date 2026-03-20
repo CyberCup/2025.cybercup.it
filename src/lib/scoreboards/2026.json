@@ -4,7 +4,7 @@
 		"team_name": "napwnli",
 		"affiliation": "Università degli Studi di Napoli Federico II",
 		"score": 0,
-		"logo": "napwnli",
+		"logo": "napwnli.png",
 		"junior": false,
 		"places_list": [],
 		"scores_list": []
@@ -14,7 +14,7 @@
 		"team_name": "ByteTheCookies",
 		"affiliation": "",
 		"score": 0,
-		"logo": "ByteTheCookies",
+		"logo": "bytethecookies.png",
 		"junior": false,
 		"places_list": [],
 		"scores_list": []
@@ -24,7 +24,7 @@
 		"team_name": "Mntcrl",
 		"affiliation": "Università degli Studi di Bari Aldo Moro",
 		"score": 0,
-		"logo": "Mntcrl",
+		"logo": "mntcrl.png",
 		"junior": false,
 		"places_list": [],
 		"scores_list": []
@@ -34,7 +34,7 @@
 		"team_name": "bhackari",
 		"affiliation": "",
 		"score": 0,
-		"logo": "bhackari",
+		"logo": "bhackari.png",
 		"junior": false,
 		"places_list": [],
 		"scores_list": []
@@ -44,7 +44,7 @@
 		"team_name": "K!nd4SUS",
 		"affiliation": "Università degli Studi di Milano",
 		"score": 0,
-		"logo": "K!nd4SUS",
+		"logo": "knd4sus.png",
 		"junior": false,
 		"places_list": [],
 		"scores_list": []
@@ -54,7 +54,7 @@
 		"team_name": "Pwnissa",
 		"affiliation": "Università di Genova",
 		"score": 0,
-		"logo": "Pwnissa",
+		"logo": "pwnissa.png",
 		"junior": true,
 		"places_list": [],
 		"scores_list": []
@@ -64,7 +64,7 @@
 		"team_name": "TRX hackademy",
 		"affiliation": "Sapienza Università di Roma",
 		"score": 0,
-		"logo": "TRX hackademy",
+		"logo": "trx_hackademy.png",
 		"junior": true,
 		"places_list": [],
 		"scores_list": []
@@ -74,7 +74,7 @@
 		"team_name": "pwnlentoni",
 		"affiliation": "Università degli Studi di Padova",
 		"score": 0,
-		"logo": "pwnlentoni",
+		"logo": "pwnlentoni.png",
 		"junior": false,
 		"places_list": [],
 		"scores_list": []
@@ -84,7 +84,7 @@
 		"team_name": "Team2Sicilies",
 		"affiliation": "",
 		"score": 0,
-		"logo": "Team2Sicilies",
+		"logo": "team2sicilies.png",
 		"junior": false,
 		"places_list": [],
 		"scores_list": []
@@ -94,7 +94,7 @@
 		"team_name": "DarkMarchet",
 		"affiliation": "Università Politecnica delle Marche",
 		"score": 0,
-		"logo": "DarkMarchet",
+		"logo": "darkmarchet.png",
 		"junior": true,
 		"places_list": [],
 		"scores_list": []
@@ -104,7 +104,7 @@
 		"team_name": "pwnthem0le",
 		"affiliation": "Politecnico di Torino",
 		"score": 0,
-		"logo": "pwnthem0le",
+		"logo": "pwnthem0le.png",
 		"junior": true,
 		"places_list": [],
 		"scores_list": []
@@ -114,7 +114,7 @@
 		"team_name": "Srdnlen",
 		"affiliation": "Università degli studi di Cagliari",
 		"score": 0,
-		"logo": "Srdnlen",
+		"logo": "srdnlen.png",
 		"junior": false,
 		"places_list": [],
 		"scores_list": []
@@ -124,7 +124,7 @@
 		"team_name": "TRX",
 		"affiliation": "Sapienza Università di Roma",
 		"score": 0,
-		"logo": "TRX",
+		"logo": "trx.png",
 		"junior": false,
 		"places_list": [],
 		"scores_list": []
@@ -134,7 +134,7 @@
 		"team_name": "Tower of Hanoi",
 		"affiliation": "Politecnico di Milano",
 		"score": 0,
-		"logo": "Tower of Hanoi",
+		"logo": "toh.png",
 		"junior": false,
 		"places_list": [],
 		"scores_list": []
