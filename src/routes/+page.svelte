@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { base } from '$app/paths';
+	import { asset, resolve } from '$app/paths';
 	import type { PageData } from './$types';
 
 	let { data }: { data: PageData } = $props();
@@ -15,7 +15,7 @@
 
 <div class="absolute inset-x-0 top-0 flex h-screen flex-col justify-center text-white">
 	<img
-		src="{base}/hero.jpg"
+		src={asset('/hero.jpg')}
 		alt="Immagine di copertina"
 		class="absolute inset-0 h-full w-full object-cover object-center"
 	/>
@@ -25,9 +25,9 @@
 		class="z-10 mx-8 flex flex-col items-center rounded-lg border-2 border-black/20 bg-black/5 p-4 backdrop-blur-sm md:mx-auto"
 	>
 		<p class="flex items-center text-center text-4xl font-bold xl:text-6xl">
-			CyberCup.IT 2025
+			CyberCup.IT 2026
 			<img
-				src="{base}/logo.png"
+				src={asset('/logo.png')}
 				alt="CyberCup Logo"
 				class="ms-4 ml-10 hidden h-20 xl:inline-block"
 			/>
@@ -43,10 +43,10 @@
 			class="w-full rounded-lg border-2 border-black/20 bg-black/20 p-4 shadow-lg backdrop-blur-sm md:max-w-xl"
 		>
 			<h2 class="mb-1 text-center text-xl font-semibold opacity-90 xl:text-2xl">Ultime notizie</h2>
-			<Marquee pauseOnHover={true} speed={50} gap={'50px'}>
-				{#each latestArticles as latestArticle}
+			<Marquee pauseOnHover={true} speed={50} gap="50px">
+				{#each latestArticles as latestArticle (latestArticle.path)}
 					<a
-						href="{base}/news/{latestArticle.path}"
+						href={resolve(`/news/${latestArticle.path}`)}
 						class="mr-8 flex items-center truncate text-lg"
 					>
 						<b>{latestArticle.title}</b>
