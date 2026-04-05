@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { base } from '$app/paths';
+	import { asset } from '$app/paths';
 	import type { Scoreboard } from '$lib';
 
 	import ExternalLinkIcon from '~icons/custom/external';
@@ -41,7 +41,7 @@
 				</tr>
 			{/if}
 
-			{#each orderedScores as team, i}
+			{#each orderedScores as team, i (team.team_name)}
 				{@const pos = i + 1}
 
 				{@const gold = pos === 1}
@@ -55,7 +55,7 @@
 
 					<td class="flex items-center md:text-lg">
 						<img
-							src="{base}/logos/{team.logo}"
+							src={asset('/logos/' + team.logo)}
 							class="mr-10 aspect-square h-20 items-center justify-center rounded-lg bg-white object-contain p-2 max-sm:hidden sm:grid"
 							alt={team.team_name}
 						/>

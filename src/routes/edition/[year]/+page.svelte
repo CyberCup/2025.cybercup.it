@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { base } from '$app/paths';
+	import { asset, resolve } from '$app/paths';
 	import Calendar from '$lib/Calendar.svelte';
 	import Scoreboard from '$lib/Scoreboard.svelte';
 	import type { PageData } from './$types';
@@ -16,7 +16,7 @@
 
 <h2 class="text-center text-4xl font-bold">
 	CyberCup.IT {year}
-	<img src="{base}/logo.png" alt="CyberCup Logo" class="ms-4 hidden h-14 lg:inline-block" />
+	<img src={asset('/logo.png')} alt="CyberCup Logo" class="ms-4 hidden h-14 lg:inline-block" />
 </h2>
 
 <p class="mt-2 text-center text-xl font-light">
@@ -31,9 +31,12 @@
 
 <h2 class="mt-12 mb-6 text-center text-2xl font-bold">Altre edizioni CyberCup.IT:</h2>
 <ul class="mx-auto max-w-xl list-none justify-center space-y-4">
-	{#each years.filter((y) => y != year) as y}
+	{#each years as y (y)}
 		<li>
-			<a href="{base}/edition/{y}" class="btn btn-primary w-full">Anno {y}</a>
+			<a
+				href={resolve(`/edition/${y}`)}
+				class={['btn btn-primary w-full', y === year && 'btn-disabled']}>Anno {y}</a
+			>
 		</li>
 	{/each}
 </ul>

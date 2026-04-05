@@ -1,7 +1,7 @@
 <script lang="ts">
-	import { base } from '$app/paths';
 	import { slide } from 'svelte/transition';
 	import { editions } from '$lib';
+	import { asset, resolve } from '$app/paths';
 
 	import MenuIcon from '~icons/heroicons/bars-3-16-solid';
 
@@ -23,7 +23,7 @@
 		{ name: 'Calendario', path: 'calendar' },
 		{ name: 'Scoreboard', path: 'scoreboard' },
 		{ name: 'Iscriviti', path: 'register' }
-	];
+	] as const;
 
 	let mobileMenuOpen = $state(false);
 </script>
@@ -40,17 +40,17 @@
 		class="navbar bg-primary relative m-0 mx-auto max-h-16 max-w-[80rem] rounded-lg p-0 px-8 text-white shadow-xl"
 	>
 		<div class="mx-auto xl:mx-0">
-			<a href="{base}/" class="flex h-10 items-center gap-2">
-				<img src="{base}/logo.png" alt="CyberCup Logo" class="h-full" />
+			<a href={resolve('/')} class="flex h-10 items-center gap-2">
+				<img src={asset('/logo.png')} alt="CyberCup Logo" class="h-full" />
 				<span class="ml-2 text-xl font-bold">CyberCup.IT</span>
 			</a>
 		</div>
 
 		<div class="ml-auto hidden items-center gap-4 xl:flex">
 			<ul class="menu menu-horizontal">
-				{#each MENU as { name, path }}
+				{#each MENU as { name, path } (path)}
 					<li>
-						<a href="{base}/{path}" class="text-white">
+						<a href={resolve(`/${path}`)} class="text-white">
 							{name}
 						</a>
 					</li>
@@ -60,12 +60,12 @@
 					<details>
 						<summary>Edizioni</summary>
 						<ul
-							class="bg-primary min-w-[10rem] -translate-x-8 -translate-y-0.5 transform rounded-t-none rounded-b-lg p-2"
+							class="bg-primary min-w-40 -translate-x-8 -translate-y-0.5 transform rounded-t-none rounded-b-lg p-2"
 						>
-							{#each pastEditions as { year }}
+							{#each pastEditions as { year } (year)}
 								<li>
 									<a
-										href="{base}/edition/{year}"
+										href={resolve(`/edition/${year}`)}
 										class="w-full"
 										onclick={() => (mobileMenuOpen = false)}
 									>
@@ -101,9 +101,9 @@
 		hidden={!mobileMenuOpen}
 	>
 		<ul class="menu menu-lg w-full">
-			{#each MENU as { name, path }}
+			{#each MENU as { name, path } (path)}
 				<li>
-					<a href="{base}/{path}" onclick={() => (mobileMenuOpen = false)}>
+					<a href={resolve(`/${path}`)} onclick={() => (mobileMenuOpen = false)}>
 						{name}
 					</a>
 				</li>
@@ -112,10 +112,10 @@
 				<details bind:open={editionsMenuOpen}>
 					<summary>Edizioni</summary>
 					<ul>
-						{#each pastEditions as { year }}
+						{#each pastEditions as { year } (year)}
 							<li>
 								<a
-									href="{base}/edition/{year}"
+									href={resolve(`/edition/${year}`)}
 									onclick={() => {
 										editionsMenuOpen = false;
 										mobileMenuOpen = false;
@@ -132,23 +132,23 @@
 	</div>
 </div>
 
-<div class="container mx-auto mt-32 mb-16 max-w-[80rem] px-4 xl:px-0">
+<div class="container mx-auto mt-32 mb-16 max-w-7xl px-4 xl:px-0">
 	{@render children()}
 </div>
 
 <div class="mt-auto mb-4 px-4">
-	<div class="bg-primary mx-auto w-full max-w-[80rem] rounded-lg px-12 py-8 text-white shadow-xl">
+	<div class="bg-primary mx-auto w-full max-w-7xl rounded-lg px-12 py-8 text-white shadow-xl">
 		<div class="mb-8 lg:flex">
 			<div class="mb-8 flex flex-col items-center text-center lg:mr-32 lg:mb-0 lg:text-left">
 				<p class="flex items-center gap-x-4">
-					<img src="{base}/logo.png" alt="CyberCup Logo" class="h-10" />
+					<img src={asset('/logo.png')} alt="CyberCup Logo" class="h-10" />
 					<span class="text-2xl font-bold">CyberCup.IT</span>
 				</p>
 				<p class="mt-4 max-w-48 text-sm">Il primo torneo italiano di Capture The Flag</p>
 			</div>
 
 			<div
-				class="container grid gap-4 text-center md:mx-auto md:text-inherit lg:max-w-[80rem] lg:grid-cols-2 lg:gap-8 lg:text-left xl:grid-cols-3"
+				class="container grid gap-4 text-center md:mx-auto md:text-inherit lg:max-w-7xl lg:grid-cols-2 lg:gap-8 lg:text-left xl:grid-cols-3"
 			>
 				<div>
 					<h4 class="my-1 text-lg font-bold">Contatti</h4>
@@ -160,17 +160,17 @@
 				<div>
 					<h4 class="my-1 text-lg font-bold">Collegamenti</h4>
 					<ul>
-						<li class="my-1"><a href="{base}/">Home</a></li>
-						<li class="my-1"><a href="{base}/scoreboard">Scoreboard</a></li>
-						<li class="my-1"><a href="{base}/who">Organizzatori</a></li>
+						<li class="my-1"><a href={resolve('/')}>Home</a></li>
+						<li class="my-1"><a href={resolve('/scoreboard')}>Scoreboard</a></li>
+						<li class="my-1"><a href={resolve('/who')}>Organizzatori</a></li>
 					</ul>
 				</div>
 
 				<div>
 					<h4 class="my-1 text-lg font-bold">Edizioni precedenti</h4>
 					<ul>
-						{#each pastEditions as { year }}
-							<li class="my-1"><a href="{base}/edition/{year}/">Anno {year}</a></li>
+						{#each pastEditions as { year } (year)}
+							<li class="my-1"><a href={resolve(`/edition/${year}/`)}>Anno {year}</a></li>
 						{/each}
 					</ul>
 				</div>

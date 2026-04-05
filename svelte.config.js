@@ -7,9 +7,7 @@ import { defineConfig } from 'vite';
 const config = defineConfig({
 	preprocess: [
 		vitePreprocess(),
-		mdsvex({
-			layout: import.meta.dirname + '/src/layouts/News.svelte'
-		})
+		mdsvex({ layout: import.meta.dirname + '/src/layouts/News.svelte' })
 	],
 	kit: {
 		adapter: adapter({ fallback: '404.html' })
