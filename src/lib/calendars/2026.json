@@ -1,1 +1,23 @@
-[]
+[
+  {
+    "title": "Febbraio 2026 (1° Round)",
+    "ctf": "Srdnlen CTF 2026 Quals",
+    "date": "Inizio: 28 febbraio 2026, 18:00 UTC - Fine: 1 marzo 2026, 18:00 UTC",
+    "website": "https://ctf.srdnlen.it/",
+    "ctftime": "3043"
+  },
+  {
+    "title": "Aprile 2026 (2° Round)",
+    "ctf": "K!nd4SUS CTF 2026",
+    "date": "Inizio: 18 aprile 2026, TBA - Fine: TBA",
+    "website": "https://ctf.k1nd4sus.it/",
+    "ctftime": ""
+  },
+  {
+    "title": "Aprile 2026 (3° Round)",
+    "ctf": "TRX CTF 2026",
+    "date": "Inizio: 24 aprile 2026, 19:00 UTC - Fine: 26 aprile 2026, 19:00 UTC",
+    "website": "https://ctf.theromanxpl0.it/",
+    "ctftime": "3141"
+  }
+]
