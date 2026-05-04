@@ -19,5 +19,12 @@
     "date": "Inizio: 24 aprile 2026, 19:00 UTC - Fine: 26 aprile 2026, 19:00 UTC",
     "website": "https://ctf.theromanxpl0.it/",
     "ctftime": "3141"
+  },
+  {
+    "title": "Maggio 2026 (4° Round)",
+    "ctf": "From Dusk Till Dawn Quals",
+    "date": "Inizio: 9 Maggio 2026, 11:00 CEST - Fine: 10 Maggio 2026, 11:00 CEST",
+    "website": "https://till-dawn.fibonhack.it/",
+    "ctftime": "3111"
   }
 ]
