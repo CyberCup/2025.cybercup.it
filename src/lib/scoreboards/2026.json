@@ -1,52 +1,9 @@
 [
   {
-    "id": "83421",
-    "team_name": "Srdnlen",
-    "affiliation": "Università degli studi di Cagliari",
-    "score": 167.26,
-    "logo": "srdnlen.png",
-    "junior": false,
-    "places_list": [
-      7,
-      17,
-      31,
-      9
-    ],
-    "scores_list": [
-      46.76,
-      43.0,
-      36.5,
-      31.33,
-      41.0
-    ]
-  },
-  {
-    "id": "60467",
-    "team_name": "pwnthem0le",
-    "affiliation": "Politecnico di Torino",
-    "score": 156.0,
-    "logo": "pwnthem0le.png",
-    "junior": false,
-    "places_list": [
-      25,
-      11,
-      15,
-      23,
-      5
-    ],
-    "scores_list": [
-      33.33,
-      39.5,
-      37.5,
-      34.0,
-      45.0
-    ]
-  },
-  {
     "id": "195096",
     "team_name": "Mntcrl",
     "affiliation": "Università degli Studi di Bari Aldo Moro",
-    "score": 155.55,
+    "score": 145.71,
     "logo": "mntcrl.png",
     "junior": false,
     "places_list": [
@@ -56,39 +13,66 @@
       2
     ],
     "scores_list": [
-      23.8,
+      18.25,
       0,
-      38.0,
-      45.0,
-      48.75
+      33.17,
+      33.3,
+      37.68,
+      41.56
     ]
   },
   {
-    "id": "117538",
-    "team_name": "FibonHack",
-    "affiliation": "Università di Pisa",
-    "score": 147.18,
-    "logo": "fibonhack.png",
+    "id": "60467",
+    "team_name": "pwnthem0le",
+    "affiliation": "Politecnico di Torino",
+    "score": 136.74,
+    "logo": "pwnthem0le.png",
     "junior": false,
     "places_list": [
-      46,
-      12,
-      154,
-      18
+      25,
+      11,
+      15,
+      23,
+      5,
+      3
     ],
     "scores_list": [
-      26.33,
-      39.0,
-      15,
-      45.85,
-      36.0
+      25.56,
+      27.65,
+      32.74,
+      25.16,
+      34.79,
+      41.56
+    ]
+  },
+  {
+    "id": "83421",
+    "team_name": "Srdnlen",
+    "affiliation": "Università degli studi di Cagliari",
+    "score": 131.27,
+    "logo": "srdnlen.png",
+    "junior": false,
+    "places_list": [
+      7,
+      17,
+      31,
+      9,
+      7
+    ],
+    "scores_list": [
+      28.38,
+      30.1,
+      31.86,
+      23.18,
+      31.69,
+      37.62
     ]
   },
   {
     "id": "230457",
     "team_name": "pwnlentoni",
     "affiliation": "Università degli Studi di Padova",
-    "score": 139.2,
+    "score": 126.72,
     "logo": "pwnlentoni.png",
     "junior": false,
     "places_list": [
@@ -96,83 +80,67 @@
       1,
       65,
       59,
+      6,
       6
     ],
     "scores_list": [
-      15.0,
-      50.0,
-      22.0,
-      23.2,
-      44.0
+      11.51,
+      35.0,
+      19.21,
+      17.17,
+      34.01,
+      38.5
     ]
   },
   {
     "id": "46516",
     "team_name": "TRX",
     "affiliation": "Sapienza Università di Roma",
-    "score": 121.99,
+    "score": 121.8,
     "logo": "trx.png",
     "junior": false,
     "places_list": [
       16,
+      19,
+      15
+    ],
+    "scores_list": [
+      28.38,
+      0,
+      33.17,
+      0,
+      27.44,
+      32.81
+    ]
+  },
+  {
+    "id": "117538",
+    "team_name": "FibonHack",
+    "affiliation": "Università di Pisa",
+    "score": 119.49,
+    "logo": "fibonhack.png",
+    "junior": false,
+    "places_list": [
+      46,
+      12,
+      154,
+      18,
       19
     ],
     "scores_list": [
-      37.0,
-      0,
-      49.49,
-      0,
-      35.5
-    ]
-  },
-  {
-    "id": "150337",
-    "team_name": "K!nd4SUS",
-    "affiliation": "Università degli Studi di Milano",
-    "score": 112.77,
-    "logo": "k1nd4SUS.png",
-    "junior": false,
-    "places_list": [
-      161,
-      71,
-      106,
-      27
-    ],
-    "scores_list": [
-      15,
-      44.3,
-      20.8,
-      15.0,
-      32.67
-    ]
-  },
-  {
-    "id": "309819",
-    "team_name": "ByteTheCookies",
-    "affiliation": "",
-    "score": 110.93,
-    "logo": "bytethecookies.png",
-    "junior": false,
-    "places_list": [
-      68,
-      34,
-      64,
-      69,
-      16
-    ],
-    "scores_list": [
-      21.4,
-      30.33,
-      22.2,
-      21.2,
-      37.0
+      20.2,
+      27.3,
+      13.1,
+      33.3,
+      27.83,
+      31.06
     ]
   },
   {
     "id": "308814",
     "team_name": "napwnli",
     "affiliation": "Università degli Studi di Napoli Federico II",
-    "score": 106.83,
+    "score": 108.29,
     "logo": "napwnli.png",
     "junior": false,
     "places_list": [
@@ -180,21 +148,93 @@
       22,
       114,
       75,
-      15
+      15,
+      4
     ],
     "scores_list": [
-      15.0,
-      34.33,
-      15.0,
-      20.0,
-      37.5
+      11.51,
+      24.03,
+      13.1,
+      14.8,
+      28.99,
+      40.47
+    ]
+  },
+  {
+    "id": "309819",
+    "team_name": "ByteTheCookies",
+    "affiliation": "",
+    "score": 105.09,
+    "logo": "bytethecookies.png",
+    "junior": false,
+    "places_list": [
+      68,
+      34,
+      64,
+      69,
+      16,
+      9
+    ],
+    "scores_list": [
+      16.41,
+      21.23,
+      19.38,
+      15.69,
+      28.6,
+      35.88
+    ]
+  },
+  {
+    "id": "150337",
+    "team_name": "K!nd4SUS",
+    "affiliation": "Università degli Studi di Milano",
+    "score": 100.11,
+    "logo": "k1nd4SUS.png",
+    "junior": false,
+    "places_list": [
+      161,
+      71,
+      106,
+      27,
+      51
+    ],
+    "scores_list": [
+      11.51,
+      35.0,
+      18.16,
+      11.1,
+      25.25,
+      21.7
+    ]
+  },
+  {
+    "id": "386813",
+    "team_name": "Pwnissa",
+    "affiliation": "Università di Genova",
+    "score": 96.33,
+    "logo": "pwnissa.png",
+    "junior": true,
+    "places_list": [
+      114,
+      31,
+      63,
+      41,
+      12
+    ],
+    "scores_list": [
+      11.51,
+      21.93,
+      19.56,
+      20.72,
+      0,
+      34.12
     ]
   },
   {
     "id": "395318",
     "team_name": "Team2Sicilies",
     "affiliation": "",
-    "score": 99.67,
+    "score": 90.87,
     "logo": "team2sicilies.png",
     "junior": false,
     "places_list": [
@@ -202,64 +242,23 @@
       42,
       77,
       85,
+      26,
       26
     ],
     "scores_list": [
-      19.4,
-      27.67,
-      19.6,
-      18.0,
-      33.0
-    ]
-  },
-  {
-    "id": "386813",
-    "team_name": "Pwnissa",
-    "affiliation": "Università di Genova",
-    "score": 96.73,
-    "logo": "pwnissa.png",
-    "junior": true,
-    "places_list": [
-      114,
-      31,
-      63,
-      41
-    ],
-    "scores_list": [
-      15.0,
-      31.33,
-      22.4,
-      28.0,
-      0
-    ]
-  },
-  {
-    "id": "425771",
-    "team_name": "DarkMarchet",
-    "affiliation": "Università Politecnica delle Marche",
-    "score": 84.93,
-    "logo": "darkmarchet.png",
-    "junior": true,
-    "places_list": [
-      220,
-      57,
-      160,
-      101,
-      31
-    ],
-    "scores_list": [
-      15,
-      23.6,
-      15,
-      15.0,
-      31.33
+      14.88,
+      19.37,
+      17.11,
+      13.32,
+      25.51,
+      28.88
     ]
   },
   {
     "id": "426569",
     "team_name": "TRX hackademy",
     "affiliation": "Sapienza Università di Roma",
-    "score": 84.53,
+    "score": 85.87,
     "logo": "trx_hackademy.png",
     "junior": true,
     "places_list": [
@@ -267,21 +266,47 @@
       54,
       139,
       114,
-      34
+      34,
+      16
     ],
     "scores_list": [
-      15,
-      24.2,
-      15.0,
-      15.0,
-      30.33
+      11.51,
+      16.94,
+      13.1,
+      11.1,
+      23.45,
+      32.38
+    ]
+  },
+  {
+    "id": "425771",
+    "team_name": "DarkMarchet",
+    "affiliation": "Università Politecnica delle Marche",
+    "score": 83.3,
+    "logo": "darkmarchet.png",
+    "junior": true,
+    "places_list": [
+      220,
+      57,
+      160,
+      101,
+      31,
+      24
+    ],
+    "scores_list": [
+      11.51,
+      16.52,
+      13.1,
+      11.1,
+      24.22,
+      29.46
     ]
   },
   {
     "id": "194130",
     "team_name": "bhackari",
     "affiliation": "",
-    "score": 74.28,
+    "score": 56.81,
     "logo": "bhackari.png",
     "junior": false,
     "places_list": [
@@ -289,17 +314,18 @@
     ],
     "scores_list": [
       0,
-      27.33,
+      19.13,
       0,
       0,
-      46.95
+      37.68,
+      0
     ]
   },
   {
     "id": "300",
     "team_name": "Tower of Hanoi",
     "affiliation": "Politecnico di Milano",
-    "score": 62.0,
+    "score": 50.95,
     "logo": "toh.png",
     "junior": false,
     "places_list": [
@@ -307,9 +333,10 @@
       29
     ],
     "scores_list": [
-      30.0,
+      23.01,
       0,
-      32.0,
+      27.94,
+      0,
       0,
       0
     ]
