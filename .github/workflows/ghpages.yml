@@ -40,7 +40,7 @@ jobs:
           BUILD_PATH: /${{ github.repository }}
 
       - name: Upload deploy artifact
-        uses: actions/upload-pages-artifact@v4
+        uses: actions/upload-pages-artifact@v5
         id: deployment
         with:
           path: build
